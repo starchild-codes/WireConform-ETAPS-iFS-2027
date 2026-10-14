@@ -1,0 +1,76 @@
+{
+  "kind": "SYNTHETIC_TEST_DESIGN_NOT_GENERATOR_RESULT",
+  "selection_policy": "14 cases frozen prior to external SDK trials; deliberate multi-element discriminators; two default pairs; all seven styles",
+  "pilot_case_ids": [
+    "c003",
+    "c004",
+    "c005",
+    "c007",
+    "c008",
+    "c016",
+    "c021",
+    "c024",
+    "c034",
+    "c035",
+    "c037",
+    "c039",
+    "c040",
+    "c079"
+  ],
+  "pilot": {
+    "mutants_detectable": 7,
+    "mutants_total": 7,
+    "covered_mutants": [
+      "ignore_form_array_explode",
+      "omit_default_array_explode",
+      "ignore_label_object_explode",
+      "ignore_matrix_array_explode",
+      "discard_last_exploded_pair",
+      "header_object_nonexploded",
+      "flatten_deep_object"
+    ],
+    "styles": [
+      "deepObject",
+      "form",
+      "label",
+      "matrix",
+      "pipeDelimited",
+      "simple",
+      "spaceDelimited"
+    ],
+    "locations": [
+      "header",
+      "path",
+      "query"
+    ],
+    "kinds": [
+      "array",
+      "object",
+      "scalar"
+    ],
+    "profiles": [
+      "numeric",
+      "singleton",
+      "words"
+    ],
+    "complete_default_pairs": 2,
+    "distinct_serialization_families": 11
+  },
+  "baseline": {
+    "design": "5000 seeded uniform 14-of-117 samples, without SDK data",
+    "seed": 20261013,
+    "sample_size": 5000,
+    "mean_detected_mutants": 2.2194,
+    "distribution_detected_mutants": {
+      "0": 654,
+      "1": 1285,
+      "2": 1016,
+      "3": 876,
+      "4": 765,
+      "5": 334,
+      "6": 68,
+      "7": 2
+    },
+    "fraction_cover_all_seven": 0.0004
+  }
+}

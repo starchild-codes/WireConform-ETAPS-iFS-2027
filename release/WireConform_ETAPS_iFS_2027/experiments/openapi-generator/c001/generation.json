@@ -1,0 +1,19 @@
+{
+  "case_id": "c001",
+  "generator": "openapi-generator",
+  "sha256": "20cf478ecc2f18ae215fd5a957124fb8c3300709858102fc36b9bcdbf584e950",
+  "command": [
+    "openapi-generator-cli",
+    "generate",
+    "-i",
+    "/mnt/data/ETAPS_iFS_OpenAPI_v02/outputs/corpus/c001.json",
+    "-g",
+    "typescript-fetch",
+    "-o",
+    "/mnt/data/ETAPS_iFS_OpenAPI_v02/experiments/openapi-generator/c001/generated"
+  ],
+  "exit": null,
+  "status": "GENERATOR_UNAVAILABLE",
+  "stderr": "[Errno 2] No such file or directory: 'openapi-generator-cli'",
+  "elapsed_seconds": 0
+}

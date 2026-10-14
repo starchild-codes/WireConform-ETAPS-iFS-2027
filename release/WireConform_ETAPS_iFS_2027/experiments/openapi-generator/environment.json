@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": {
+    "exit": 0,
+    "stdout": "v24.17.0\n",
+    "stderr": "",
+    "elapsed_seconds": 0.06
+  },
+  "npm": {
+    "exit": 0,
+    "stdout": "11.13.0\n",
+    "stderr": "",
+    "elapsed_seconds": 0.98
+  },
+  "openapi-generator": {
+    "source": "previous successful bundled generation metadata",
+    "value": {
+      "exit": 0,
+      "stdout_tail": "Download 7.26.0 ...\nDownloaded 7.26.0\nDid set selected version to 7.26.0\n7.26.0\n",
+      "stderr_tail": "",
+      "seconds": 42.687
+    }
+  }
+}

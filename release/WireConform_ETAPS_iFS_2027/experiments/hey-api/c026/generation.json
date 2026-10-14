@@ -1,0 +1,17 @@
+{
+  "case_id": "c026",
+  "generator": "hey-api",
+  "sha256": "9cb2268bf1ec1a8c4303a7b941ef307485205c7ae83b09bc1bbd9fd1f45502e0",
+  "command": [
+    "openapi-ts",
+    "-i",
+    "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\outputs\\corpus\\c026.json",
+    "-o",
+    "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\hey-api\\c026\\generated"
+  ],
+  "exit": 0,
+  "stdout": "\u001b[90m@hey-api/openapi-ts v0.99.0\u001b[39m\n\n\u001b[90m[Job 1] \u001b[39m\u001b[90m~\u001b[39m \u001b[36mGenerating...\u001b[39m\n\u001b[90m[Job 1] \u001b[39m\u001b[36m  [1] \u001b[39mC:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\outputs\\corpus\\c026.json\n\u001b[90m[Job 1] \u001b[39m\u001b[32m\u2713\u001b[39m \u001b[96mC:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\hey-api\\c026\\generated\u001b[39m \u001b[90m\u00b7 4 files \u00b7 261ms\u001b[39m\n",
+  "stderr": "",
+  "elapsed_seconds": 2.0,
+  "status": "GENERATED"
+}

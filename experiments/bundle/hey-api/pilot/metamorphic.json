@@ -1,0 +1,200 @@
+{
+  "summary": {
+    "pairs": 27,
+    "statuses": {
+      "INELIGIBLE": 25,
+      "EQUAL": 2
+    }
+  },
+  "pairs": [
+    {
+      "pair": "numeric-header-simple-array-default",
+      "left": "c068",
+      "right": "c069",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "numeric-header-simple-object-default",
+      "left": "c071",
+      "right": "c072",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "numeric-header-simple-scalar-default",
+      "left": "c066",
+      "right": "c067",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "numeric-path-simple-array-default",
+      "left": "c050",
+      "right": "c051",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "numeric-path-simple-object-default",
+      "left": "c053",
+      "right": "c054",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "numeric-path-simple-scalar-default",
+      "left": "c048",
+      "right": "c049",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "numeric-query-form-array-default",
+      "left": "c043",
+      "right": "c044",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "numeric-query-form-object-default",
+      "left": "c046",
+      "right": "c047",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "numeric-query-form-scalar-default",
+      "left": "c040",
+      "right": "c041",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 1/0"
+    },
+    {
+      "pair": "singleton-header-simple-array-default",
+      "left": "c107",
+      "right": "c108",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "singleton-header-simple-object-default",
+      "left": "c110",
+      "right": "c111",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "singleton-header-simple-scalar-default",
+      "left": "c105",
+      "right": "c106",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "singleton-path-simple-array-default",
+      "left": "c089",
+      "right": "c090",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "singleton-path-simple-object-default",
+      "left": "c092",
+      "right": "c093",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "singleton-path-simple-scalar-default",
+      "left": "c087",
+      "right": "c088",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "singleton-query-form-array-default",
+      "left": "c082",
+      "right": "c083",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "singleton-query-form-object-default",
+      "left": "c085",
+      "right": "c086",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "singleton-query-form-scalar-default",
+      "left": "c079",
+      "right": "c080",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 1/0"
+    },
+    {
+      "pair": "words-header-simple-array-default",
+      "left": "c029",
+      "right": "c030",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "words-header-simple-object-default",
+      "left": "c032",
+      "right": "c033",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "words-header-simple-scalar-default",
+      "left": "c027",
+      "right": "c028",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "words-path-simple-array-default",
+      "left": "c011",
+      "right": "c012",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "words-path-simple-object-default",
+      "left": "c014",
+      "right": "c015",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "words-path-simple-scalar-default",
+      "left": "c009",
+      "right": "c010",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    },
+    {
+      "pair": "words-query-form-array-default",
+      "left": "c004",
+      "right": "c005",
+      "status": "EQUAL",
+      "reason": ""
+    },
+    {
+      "pair": "words-query-form-object-default",
+      "left": "c007",
+      "right": "c008",
+      "status": "EQUAL",
+      "reason": ""
+    },
+    {
+      "pair": "words-query-form-scalar-default",
+      "left": "c001",
+      "right": "c002",
+      "status": "INELIGIBLE",
+      "reason": "observation counts 0/0"
+    }
+  ]
+}

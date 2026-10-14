@@ -1,0 +1,9 @@
+.openapi-generator-ignore
+apis/DefaultApi.ts
+apis/index.ts
+docs/DefaultApi.md
+docs/ProbeXTestParamParameter.md
+index.ts
+models/ProbeXTestParamParameter.ts
+models/index.ts
+runtime.ts

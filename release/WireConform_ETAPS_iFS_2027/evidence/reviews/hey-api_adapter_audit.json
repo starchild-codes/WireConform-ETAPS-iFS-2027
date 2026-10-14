@@ -1,0 +1,15 @@
+{
+  "generator": "hey-api",
+  "audit_status": "APPROVED_FOR_EXECUTION",
+  "adapter_file": "runner/adapters/bundle_probe.mts",
+  "adapter_sha256": "06ebb99f695e4bed2235a203c72e9f30d62a891095a76cfbd37ec282acd40410",
+  "bundle_sha256": "9a0da3e9d90df88ce0f0b21f95456fd04c8de58ee8761484270419f5503b1775",
+  "generated_source_provenance": "experiments/bundle/hey-api/bundle_generation.json",
+  "verified_operations": {
+    "query": "probeC003: generated/types.gen.ts:43-50 types query.item and generated/sdk.gen.ts:25-29 installs its array serializer; adapter supplies only {query:{item:value}}.",
+    "path": "probeC016: generated/types.gen.ts:292-302 types path.item and generated/sdk.gen.ts:67 delegates the URL template plus typed options to the generated client; adapter supplies only {path:{item:value}}.",
+    "header": "probeC034: generated/types.gen.ts:644-655 types headers.X-Test-Param and generated/sdk.gen.ts:103 delegates typed options through generated mergeHeaders; adapter supplies only {headers:{X-Test-Param:value}}."
+  },
+  "compile_check": "PARTIAL: generated/index.ts has TS2322 for six valid object-valued spaceDelimited/pipeDelimited operations (c036,c038,c075,c077,c114,c116); all are recorded COMPILE_ERROR_GENERATED_SOURCE and not invoked. Other operations are transpiled by pinned tsx without generated-source edits.",
+  "reviewer_notes": "The adapter sets only the generated client's loopback base URL and typed data containers. It performs no serialization. Header object coercion, including any [object Object] result, occurs inside generated client header merging and is therefore observable SDK behavior."
+}

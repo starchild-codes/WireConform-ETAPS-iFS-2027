@@ -1,0 +1,46 @@
+{
+  "generator": "orval",
+  "mode": "MERGED_117_OPERATIONS_NOT_INDIVIDUAL_SPECS",
+  "bundle_sha256": "9a0da3e9d90df88ce0f0b21f95456fd04c8de58ee8761484270419f5503b1775",
+  "command": [
+    "orval",
+    "--config",
+    "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\orval\\orval.config.mjs"
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "node": {
+      "exit": 0,
+      "stdout_tail": "v24.17.0\n",
+      "stderr_tail": "",
+      "seconds": 0.031
+    },
+    "npm": {
+      "exit": 0,
+      "stdout_tail": "11.13.0\n",
+      "stderr_tail": "",
+      "seconds": 0.485
+    },
+    "generator": {
+      "exit": 0,
+      "stdout_tail": "8.42.0\n",
+      "stderr_tail": "",
+      "seconds": 0.765
+    }
+  },
+  "result": {
+    "exit": 0,
+    "stdout_tail": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwc - \ud83c\udf89 WireConform merged benchmark - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr_tail": "",
+    "seconds": 1.016
+  },
+  "status": "GENERATED",
+  "generated_file_count": 1,
+  "generated_source_hashes": [
+    {
+      "path": "generated\\client.ts",
+      "sha256": "a6fc936386856531140c9f78d1aa65ef41833f07bdceac606bc46865f705e0b1"
+    }
+  ]
+}

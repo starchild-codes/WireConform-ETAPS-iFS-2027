@@ -1,0 +1,2 @@
+import { defineConfig } from "@hey-api/openapi-ts";
+export default defineConfig({ input: "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\outputs\\bundle\\all_117.json", output: {path:"C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\hey-api\\generated"}, plugins: ["@hey-api/client-fetch", "@hey-api/typescript", {name:"@hey-api/sdk", paramsStructure:"grouped", operations:"flat"}] });

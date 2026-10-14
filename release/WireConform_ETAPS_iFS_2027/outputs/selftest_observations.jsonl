@@ -1,0 +1,2 @@
+{"case_id": "c001", "url": "/cases/c001?item=azure", "headers": {"Accept-Encoding": "identity", "Host": "127.0.0.1:8765", "User-Agent": "Python-urllib/3.13", "Connection": "close"}, "received_utc": "2026-10-10T18:46:45.407361+00:00"}
+{"case_id": "c002", "url": "/cases/c002?item=wrong", "headers": {"Accept-Encoding": "identity", "Host": "127.0.0.1:8765", "User-Agent": "Python-urllib/3.13", "Connection": "close"}, "received_utc": "2026-10-10T18:46:45.408231+00:00"}

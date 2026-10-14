@@ -1,0 +1,18 @@
+{
+  "name": "wireconform-research-pilot",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Reproducible local code generation experiments; not generator conformance results",
+  "scripts": {
+    "gen:pilot": "bash runner/bootstrap_online.sh"
+  },
+  "devDependencies": {
+    "@hey-api/client-fetch": "0.13.1",
+    "@hey-api/openapi-ts": "0.99.0",
+    "@openapitools/openapi-generator-cli": "2.41.0",
+    "@redocly/cli": "2.63.0",
+    "orval": "8.42.0",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  }
+}

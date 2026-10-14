@@ -1,0 +1,2679 @@
+{
+  "status": "INDEPENDENT_SINGLE_SPEC_REPRODUCTION",
+  "phases": {
+    "pilot": {
+      "openapi-generator": {
+        "bundled_population_captures": 14,
+        "single_spec_captures": 14,
+        "compared": 14,
+        "exact_matches": 14,
+        "differences": [],
+        "rows": [
+          {
+            "case_id": "c003",
+            "bundle": {
+              "url": "/cases/c003?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c003?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c004",
+            "bundle": {
+              "url": "/cases/c004?item=red&item=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c004?item=red&item=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c005",
+            "bundle": {
+              "url": "/cases/c005?item=red&item=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c005?item=red&item=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c007",
+            "bundle": {
+              "url": "/cases/c007?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c007?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c008",
+            "bundle": {
+              "url": "/cases/c008?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c008?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c016",
+            "bundle": {
+              "url": "/cases/c016/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c016/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c021",
+            "bundle": {
+              "url": "/cases/c021/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c021/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c024",
+            "bundle": {
+              "url": "/cases/c024/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c024/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c034",
+            "bundle": {
+              "url": "/cases/c034",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c034",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c035",
+            "bundle": {
+              "url": "/cases/c035?item=red%20blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c035?item=red%20blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c037",
+            "bundle": {
+              "url": "/cases/c037?item=red%7Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c037?item=red%7Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c039",
+            "bundle": {
+              "url": "/cases/c039?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c039?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c040",
+            "bundle": {
+              "url": "/cases/c040?item=7",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c040?item=7",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c079",
+            "bundle": {
+              "url": "/cases/c079?item=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c079?item=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          }
+        ]
+      },
+      "orval": {
+        "bundled_population_captures": 13,
+        "single_spec_captures": 13,
+        "compared": 13,
+        "exact_matches": 13,
+        "differences": [],
+        "rows": [
+          {
+            "case_id": "c003",
+            "bundle": {
+              "url": "/cases/c003?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c003?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c004",
+            "bundle": {
+              "url": "/cases/c004?item=red&item=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c004?item=red&item=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c005",
+            "bundle": {
+              "url": "/cases/c005?item=red&item=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c005?item=red&item=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c007",
+            "bundle": {
+              "url": "/cases/c007?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c007?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c008",
+            "bundle": {
+              "url": "/cases/c008?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c008?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c016",
+            "bundle": {
+              "url": "/cases/c016/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c016/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c021",
+            "bundle": {
+              "url": "/cases/c021/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c021/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c024",
+            "bundle": {
+              "url": "/cases/c024/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c024/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c035",
+            "bundle": {
+              "url": "/cases/c035?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c035?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c037",
+            "bundle": {
+              "url": "/cases/c037?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c037?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c039",
+            "bundle": {
+              "url": "/cases/c039?item[a]=red&item[b]=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c039?item[a]=red&item[b]=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c040",
+            "bundle": {
+              "url": "/cases/c040?item=7",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c040?item=7",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c079",
+            "bundle": {
+              "url": "/cases/c079?item=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c079?item=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          }
+        ]
+      },
+      "hey-api": {
+        "bundled_population_captures": 14,
+        "single_spec_captures": 14,
+        "compared": 14,
+        "exact_matches": 14,
+        "differences": [],
+        "rows": [
+          {
+            "case_id": "c003",
+            "bundle": {
+              "url": "/cases/c003?item=red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c003?item=red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c004",
+            "bundle": {
+              "url": "/cases/c004?item=red&item=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c004?item=red&item=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c005",
+            "bundle": {
+              "url": "/cases/c005?item=red&item=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c005?item=red&item=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c007",
+            "bundle": {
+              "url": "/cases/c007?a=red&b=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c007?a=red&b=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c008",
+            "bundle": {
+              "url": "/cases/c008?a=red&b=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c008?a=red&b=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c016",
+            "bundle": {
+              "url": "/cases/c016/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c016/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c021",
+            "bundle": {
+              "url": "/cases/c021/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c021/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c024",
+            "bundle": {
+              "url": "/cases/c024/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c024/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c034",
+            "bundle": {
+              "url": "/cases/c034",
+              "x-test-param": "{\"a\":\"red\",\"b\":\"blue\"}"
+            },
+            "single_spec": {
+              "url": "/cases/c034",
+              "x-test-param": "{\"a\":\"red\",\"b\":\"blue\"}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c035",
+            "bundle": {
+              "url": "/cases/c035?item=red%20blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c035?item=red%20blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c037",
+            "bundle": {
+              "url": "/cases/c037?item=red|blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c037?item=red|blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c039",
+            "bundle": {
+              "url": "/cases/c039?item[a]=red&item[b]=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c039?item[a]=red&item[b]=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c040",
+            "bundle": {
+              "url": "/cases/c040?item=7",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c040?item=7",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c079",
+            "bundle": {
+              "url": "/cases/c079?item=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c079?item=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          }
+        ]
+      }
+    },
+    "full_mismatches": {
+      "openapi-generator": {
+        "bundled_population_captures": 117,
+        "single_spec_captures": 63,
+        "compared": 63,
+        "exact_matches": 63,
+        "differences": [],
+        "rows": [
+          {
+            "case_id": "c006",
+            "bundle": {
+              "url": "/cases/c006?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c006?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c007",
+            "bundle": {
+              "url": "/cases/c007?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c007?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c008",
+            "bundle": {
+              "url": "/cases/c008?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c008?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c014",
+            "bundle": {
+              "url": "/cases/c014/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c014/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c015",
+            "bundle": {
+              "url": "/cases/c015/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c015/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c016",
+            "bundle": {
+              "url": "/cases/c016/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c016/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c017",
+            "bundle": {
+              "url": "/cases/c017/p/azure",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c017/p/azure",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c018",
+            "bundle": {
+              "url": "/cases/c018/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c018/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c019",
+            "bundle": {
+              "url": "/cases/c019/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c019/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c020",
+            "bundle": {
+              "url": "/cases/c020/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c020/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c021",
+            "bundle": {
+              "url": "/cases/c021/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c021/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c022",
+            "bundle": {
+              "url": "/cases/c022/p/azure",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c022/p/azure",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c023",
+            "bundle": {
+              "url": "/cases/c023/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c023/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c024",
+            "bundle": {
+              "url": "/cases/c024/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c024/p/red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c025",
+            "bundle": {
+              "url": "/cases/c025/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c025/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c026",
+            "bundle": {
+              "url": "/cases/c026/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c026/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c032",
+            "bundle": {
+              "url": "/cases/c032",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c032",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c033",
+            "bundle": {
+              "url": "/cases/c033",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c033",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c034",
+            "bundle": {
+              "url": "/cases/c034",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c034",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c036",
+            "bundle": {
+              "url": "/cases/c036?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c036?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c038",
+            "bundle": {
+              "url": "/cases/c038?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c038?item%5Ba%5D=red&item%5Bb%5D=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c045",
+            "bundle": {
+              "url": "/cases/c045?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c045?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c046",
+            "bundle": {
+              "url": "/cases/c046?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c046?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c047",
+            "bundle": {
+              "url": "/cases/c047?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c047?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c053",
+            "bundle": {
+              "url": "/cases/c053/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c053/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c054",
+            "bundle": {
+              "url": "/cases/c054/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c054/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c055",
+            "bundle": {
+              "url": "/cases/c055/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c055/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c056",
+            "bundle": {
+              "url": "/cases/c056/p/7",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c056/p/7",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c057",
+            "bundle": {
+              "url": "/cases/c057/p/1%2C2%2C3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c057/p/1%2C2%2C3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c058",
+            "bundle": {
+              "url": "/cases/c058/p/1%2C2%2C3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c058/p/1%2C2%2C3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c059",
+            "bundle": {
+              "url": "/cases/c059/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c059/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c060",
+            "bundle": {
+              "url": "/cases/c060/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c060/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c061",
+            "bundle": {
+              "url": "/cases/c061/p/7",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c061/p/7",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c062",
+            "bundle": {
+              "url": "/cases/c062/p/1%2C2%2C3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c062/p/1%2C2%2C3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c063",
+            "bundle": {
+              "url": "/cases/c063/p/1%2C2%2C3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c063/p/1%2C2%2C3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c064",
+            "bundle": {
+              "url": "/cases/c064/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c064/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c065",
+            "bundle": {
+              "url": "/cases/c065/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c065/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c071",
+            "bundle": {
+              "url": "/cases/c071",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c071",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c072",
+            "bundle": {
+              "url": "/cases/c072",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c072",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c073",
+            "bundle": {
+              "url": "/cases/c073",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c073",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c075",
+            "bundle": {
+              "url": "/cases/c075?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c075?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c077",
+            "bundle": {
+              "url": "/cases/c077?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c077?item%5Ba%5D=1&item%5Bb%5D=2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c084",
+            "bundle": {
+              "url": "/cases/c084?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c084?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c085",
+            "bundle": {
+              "url": "/cases/c085?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c085?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c086",
+            "bundle": {
+              "url": "/cases/c086?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c086?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c092",
+            "bundle": {
+              "url": "/cases/c092/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c092/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c093",
+            "bundle": {
+              "url": "/cases/c093/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c093/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c094",
+            "bundle": {
+              "url": "/cases/c094/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c094/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c095",
+            "bundle": {
+              "url": "/cases/c095/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c095/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c096",
+            "bundle": {
+              "url": "/cases/c096/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c096/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c097",
+            "bundle": {
+              "url": "/cases/c097/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c097/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c098",
+            "bundle": {
+              "url": "/cases/c098/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c098/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c099",
+            "bundle": {
+              "url": "/cases/c099/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c099/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c100",
+            "bundle": {
+              "url": "/cases/c100/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c100/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c101",
+            "bundle": {
+              "url": "/cases/c101/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c101/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c102",
+            "bundle": {
+              "url": "/cases/c102/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c102/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c103",
+            "bundle": {
+              "url": "/cases/c103/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c103/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c104",
+            "bundle": {
+              "url": "/cases/c104/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c104/p/%5Bobject%20Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c110",
+            "bundle": {
+              "url": "/cases/c110",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c110",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c111",
+            "bundle": {
+              "url": "/cases/c111",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c111",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c112",
+            "bundle": {
+              "url": "/cases/c112",
+              "x-test-param": "[object Object]"
+            },
+            "single_spec": {
+              "url": "/cases/c112",
+              "x-test-param": "[object Object]"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c114",
+            "bundle": {
+              "url": "/cases/c114?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c114?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c116",
+            "bundle": {
+              "url": "/cases/c116?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c116?item%5Ba%5D=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          }
+        ]
+      },
+      "orval": {
+        "bundled_population_captures": 93,
+        "single_spec_captures": 61,
+        "compared": 61,
+        "exact_matches": 61,
+        "differences": [],
+        "rows": [
+          {
+            "case_id": "c006",
+            "bundle": {
+              "url": "/cases/c006?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c006?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c007",
+            "bundle": {
+              "url": "/cases/c007?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c007?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c008",
+            "bundle": {
+              "url": "/cases/c008?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c008?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c014",
+            "bundle": {
+              "url": "/cases/c014/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c014/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c015",
+            "bundle": {
+              "url": "/cases/c015/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c015/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c016",
+            "bundle": {
+              "url": "/cases/c016/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c016/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c017",
+            "bundle": {
+              "url": "/cases/c017/p/azure",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c017/p/azure",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c018",
+            "bundle": {
+              "url": "/cases/c018/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c018/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c019",
+            "bundle": {
+              "url": "/cases/c019/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c019/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c020",
+            "bundle": {
+              "url": "/cases/c020/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c020/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c021",
+            "bundle": {
+              "url": "/cases/c021/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c021/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c022",
+            "bundle": {
+              "url": "/cases/c022/p/azure",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c022/p/azure",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c023",
+            "bundle": {
+              "url": "/cases/c023/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c023/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c024",
+            "bundle": {
+              "url": "/cases/c024/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c024/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c025",
+            "bundle": {
+              "url": "/cases/c025/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c025/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c026",
+            "bundle": {
+              "url": "/cases/c026/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c026/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c035",
+            "bundle": {
+              "url": "/cases/c035?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c035?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c036",
+            "bundle": {
+              "url": "/cases/c036?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c036?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c037",
+            "bundle": {
+              "url": "/cases/c037?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c037?item=red%2Cblue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c038",
+            "bundle": {
+              "url": "/cases/c038?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c038?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c039",
+            "bundle": {
+              "url": "/cases/c039?item[a]=red&item[b]=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c039?item[a]=red&item[b]=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c045",
+            "bundle": {
+              "url": "/cases/c045?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c045?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c046",
+            "bundle": {
+              "url": "/cases/c046?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c046?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c047",
+            "bundle": {
+              "url": "/cases/c047?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c047?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c053",
+            "bundle": {
+              "url": "/cases/c053/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c053/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c054",
+            "bundle": {
+              "url": "/cases/c054/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c054/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c055",
+            "bundle": {
+              "url": "/cases/c055/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c055/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c056",
+            "bundle": {
+              "url": "/cases/c056/p/7",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c056/p/7",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c057",
+            "bundle": {
+              "url": "/cases/c057/p/1,2,3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c057/p/1,2,3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c058",
+            "bundle": {
+              "url": "/cases/c058/p/1,2,3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c058/p/1,2,3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c059",
+            "bundle": {
+              "url": "/cases/c059/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c059/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c060",
+            "bundle": {
+              "url": "/cases/c060/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c060/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c061",
+            "bundle": {
+              "url": "/cases/c061/p/7",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c061/p/7",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c062",
+            "bundle": {
+              "url": "/cases/c062/p/1,2,3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c062/p/1,2,3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c063",
+            "bundle": {
+              "url": "/cases/c063/p/1,2,3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c063/p/1,2,3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c064",
+            "bundle": {
+              "url": "/cases/c064/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c064/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c065",
+            "bundle": {
+              "url": "/cases/c065/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c065/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c074",
+            "bundle": {
+              "url": "/cases/c074?item=1%2C2%2C3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c074?item=1%2C2%2C3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c075",
+            "bundle": {
+              "url": "/cases/c075?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c075?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c076",
+            "bundle": {
+              "url": "/cases/c076?item=1%2C2%2C3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c076?item=1%2C2%2C3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c077",
+            "bundle": {
+              "url": "/cases/c077?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c077?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c078",
+            "bundle": {
+              "url": "/cases/c078?item[a]=1&item[b]=2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c078?item[a]=1&item[b]=2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c084",
+            "bundle": {
+              "url": "/cases/c084?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c084?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c085",
+            "bundle": {
+              "url": "/cases/c085?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c085?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c086",
+            "bundle": {
+              "url": "/cases/c086?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c086?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c092",
+            "bundle": {
+              "url": "/cases/c092/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c092/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c093",
+            "bundle": {
+              "url": "/cases/c093/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c093/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c094",
+            "bundle": {
+              "url": "/cases/c094/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c094/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c095",
+            "bundle": {
+              "url": "/cases/c095/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c095/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c096",
+            "bundle": {
+              "url": "/cases/c096/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c096/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c097",
+            "bundle": {
+              "url": "/cases/c097/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c097/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c098",
+            "bundle": {
+              "url": "/cases/c098/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c098/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c099",
+            "bundle": {
+              "url": "/cases/c099/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c099/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c100",
+            "bundle": {
+              "url": "/cases/c100/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c100/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c101",
+            "bundle": {
+              "url": "/cases/c101/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c101/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c102",
+            "bundle": {
+              "url": "/cases/c102/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c102/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c103",
+            "bundle": {
+              "url": "/cases/c103/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c103/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c104",
+            "bundle": {
+              "url": "/cases/c104/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c104/p/[object%20Object]",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c114",
+            "bundle": {
+              "url": "/cases/c114?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c114?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c116",
+            "bundle": {
+              "url": "/cases/c116?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c116?item=%5Bobject+Object%5D",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c117",
+            "bundle": {
+              "url": "/cases/c117?item[a]=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c117?item[a]=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          }
+        ]
+      },
+      "hey-api": {
+        "bundled_population_captures": 111,
+        "single_spec_captures": 53,
+        "compared": 53,
+        "exact_matches": 53,
+        "differences": [],
+        "rows": [
+          {
+            "case_id": "c016",
+            "bundle": {
+              "url": "/cases/c016/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c016/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c017",
+            "bundle": {
+              "url": "/cases/c017/p/azure",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c017/p/azure",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c018",
+            "bundle": {
+              "url": "/cases/c018/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c018/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c019",
+            "bundle": {
+              "url": "/cases/c019/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c019/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c020",
+            "bundle": {
+              "url": "/cases/c020/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c020/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c021",
+            "bundle": {
+              "url": "/cases/c021/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c021/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c022",
+            "bundle": {
+              "url": "/cases/c022/p/azure",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c022/p/azure",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c023",
+            "bundle": {
+              "url": "/cases/c023/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c023/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c024",
+            "bundle": {
+              "url": "/cases/c024/p/red,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c024/p/red,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c025",
+            "bundle": {
+              "url": "/cases/c025/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c025/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c026",
+            "bundle": {
+              "url": "/cases/c026/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c026/p/a,red,b,blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c029",
+            "bundle": {
+              "url": "/cases/c029",
+              "x-test-param": "red, blue"
+            },
+            "single_spec": {
+              "url": "/cases/c029",
+              "x-test-param": "red, blue"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c030",
+            "bundle": {
+              "url": "/cases/c030",
+              "x-test-param": "red, blue"
+            },
+            "single_spec": {
+              "url": "/cases/c030",
+              "x-test-param": "red, blue"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c031",
+            "bundle": {
+              "url": "/cases/c031",
+              "x-test-param": "red, blue"
+            },
+            "single_spec": {
+              "url": "/cases/c031",
+              "x-test-param": "red, blue"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c032",
+            "bundle": {
+              "url": "/cases/c032",
+              "x-test-param": "{\"a\":\"red\",\"b\":\"blue\"}"
+            },
+            "single_spec": {
+              "url": "/cases/c032",
+              "x-test-param": "{\"a\":\"red\",\"b\":\"blue\"}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c033",
+            "bundle": {
+              "url": "/cases/c033",
+              "x-test-param": "{\"a\":\"red\",\"b\":\"blue\"}"
+            },
+            "single_spec": {
+              "url": "/cases/c033",
+              "x-test-param": "{\"a\":\"red\",\"b\":\"blue\"}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c034",
+            "bundle": {
+              "url": "/cases/c034",
+              "x-test-param": "{\"a\":\"red\",\"b\":\"blue\"}"
+            },
+            "single_spec": {
+              "url": "/cases/c034",
+              "x-test-param": "{\"a\":\"red\",\"b\":\"blue\"}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c037",
+            "bundle": {
+              "url": "/cases/c037?item=red|blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c037?item=red|blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c039",
+            "bundle": {
+              "url": "/cases/c039?item[a]=red&item[b]=blue",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c039?item[a]=red&item[b]=blue",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c055",
+            "bundle": {
+              "url": "/cases/c055/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c055/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c056",
+            "bundle": {
+              "url": "/cases/c056/p/7",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c056/p/7",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c057",
+            "bundle": {
+              "url": "/cases/c057/p/1,2,3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c057/p/1,2,3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c058",
+            "bundle": {
+              "url": "/cases/c058/p/1,2,3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c058/p/1,2,3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c059",
+            "bundle": {
+              "url": "/cases/c059/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c059/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c060",
+            "bundle": {
+              "url": "/cases/c060/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c060/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c061",
+            "bundle": {
+              "url": "/cases/c061/p/7",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c061/p/7",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c062",
+            "bundle": {
+              "url": "/cases/c062/p/1,2,3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c062/p/1,2,3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c063",
+            "bundle": {
+              "url": "/cases/c063/p/1,2,3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c063/p/1,2,3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c064",
+            "bundle": {
+              "url": "/cases/c064/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c064/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c065",
+            "bundle": {
+              "url": "/cases/c065/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c065/p/a,1,b,2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c068",
+            "bundle": {
+              "url": "/cases/c068",
+              "x-test-param": "1, 2, 3"
+            },
+            "single_spec": {
+              "url": "/cases/c068",
+              "x-test-param": "1, 2, 3"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c069",
+            "bundle": {
+              "url": "/cases/c069",
+              "x-test-param": "1, 2, 3"
+            },
+            "single_spec": {
+              "url": "/cases/c069",
+              "x-test-param": "1, 2, 3"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c070",
+            "bundle": {
+              "url": "/cases/c070",
+              "x-test-param": "1, 2, 3"
+            },
+            "single_spec": {
+              "url": "/cases/c070",
+              "x-test-param": "1, 2, 3"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c071",
+            "bundle": {
+              "url": "/cases/c071",
+              "x-test-param": "{\"a\":1,\"b\":2}"
+            },
+            "single_spec": {
+              "url": "/cases/c071",
+              "x-test-param": "{\"a\":1,\"b\":2}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c072",
+            "bundle": {
+              "url": "/cases/c072",
+              "x-test-param": "{\"a\":1,\"b\":2}"
+            },
+            "single_spec": {
+              "url": "/cases/c072",
+              "x-test-param": "{\"a\":1,\"b\":2}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c073",
+            "bundle": {
+              "url": "/cases/c073",
+              "x-test-param": "{\"a\":1,\"b\":2}"
+            },
+            "single_spec": {
+              "url": "/cases/c073",
+              "x-test-param": "{\"a\":1,\"b\":2}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c076",
+            "bundle": {
+              "url": "/cases/c076?item=1|2|3",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c076?item=1|2|3",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c078",
+            "bundle": {
+              "url": "/cases/c078?item[a]=1&item[b]=2",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c078?item[a]=1&item[b]=2",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c094",
+            "bundle": {
+              "url": "/cases/c094/p/a,z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c094/p/a,z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c095",
+            "bundle": {
+              "url": "/cases/c095/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c095/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c096",
+            "bundle": {
+              "url": "/cases/c096/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c096/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c097",
+            "bundle": {
+              "url": "/cases/c097/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c097/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c098",
+            "bundle": {
+              "url": "/cases/c098/p/a,z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c098/p/a,z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c099",
+            "bundle": {
+              "url": "/cases/c099/p/a,z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c099/p/a,z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c100",
+            "bundle": {
+              "url": "/cases/c100/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c100/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c101",
+            "bundle": {
+              "url": "/cases/c101/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c101/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c102",
+            "bundle": {
+              "url": "/cases/c102/p/z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c102/p/z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c103",
+            "bundle": {
+              "url": "/cases/c103/p/a,z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c103/p/a,z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c104",
+            "bundle": {
+              "url": "/cases/c104/p/a,z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c104/p/a,z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c110",
+            "bundle": {
+              "url": "/cases/c110",
+              "x-test-param": "{\"a\":\"z\"}"
+            },
+            "single_spec": {
+              "url": "/cases/c110",
+              "x-test-param": "{\"a\":\"z\"}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c111",
+            "bundle": {
+              "url": "/cases/c111",
+              "x-test-param": "{\"a\":\"z\"}"
+            },
+            "single_spec": {
+              "url": "/cases/c111",
+              "x-test-param": "{\"a\":\"z\"}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c112",
+            "bundle": {
+              "url": "/cases/c112",
+              "x-test-param": "{\"a\":\"z\"}"
+            },
+            "single_spec": {
+              "url": "/cases/c112",
+              "x-test-param": "{\"a\":\"z\"}"
+            },
+            "exact_match": true
+          },
+          {
+            "case_id": "c117",
+            "bundle": {
+              "url": "/cases/c117?item[a]=z",
+              "x-test-param": null
+            },
+            "single_spec": {
+              "url": "/cases/c117?item[a]=z",
+              "x-test-param": null
+            },
+            "exact_match": true
+          }
+        ]
+      }
+    }
+  }
+}

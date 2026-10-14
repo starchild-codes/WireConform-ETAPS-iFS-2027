@@ -1,0 +1,19 @@
+{
+  "selection_policy": "14 cases frozen prior to external SDK trials; deliberate multi-element discriminators; two default pairs; all seven styles",
+  "case_ids": [
+    "c003",
+    "c004",
+    "c005",
+    "c007",
+    "c008",
+    "c016",
+    "c021",
+    "c024",
+    "c034",
+    "c035",
+    "c037",
+    "c039",
+    "c040",
+    "c079"
+  ]
+}

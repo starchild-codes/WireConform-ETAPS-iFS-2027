@@ -1,0 +1,917 @@
+[
+  {
+    "case_id": "c006",
+    "generator": "orval",
+    "sha256": "8f0ffc3638fd42a874450dbf5a6f703ec1be95dc50c41aa02f5d9f41bcbaef75",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c006\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.53,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c007",
+    "generator": "orval",
+    "sha256": "343d8b97e991fb257ad20bf5a056944b1dc1e8e59339f06665b3783d07a6e246",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c007\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.06,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c008",
+    "generator": "orval",
+    "sha256": "a210a2b9aa871cceba836cb4110f8fead16c6479670e1486a2572e75beabfedc",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c008\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.81,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c014",
+    "generator": "orval",
+    "sha256": "66ccd4af5d6af9c5f3b507f1c09a0e3eb43a50eed2dc68cadf696c10c02ac163",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c014\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.12,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c015",
+    "generator": "orval",
+    "sha256": "69838cd7550c129557a8ebd58fb6710338405d1790bd4e51dce12ff9d1dcb021",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c015\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.66,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c016",
+    "generator": "orval",
+    "sha256": "326a4fd56dc8cc1409b044fafbad4fd963230385add11eb0331ff68fa1224431",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c016\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.48,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c017",
+    "generator": "orval",
+    "sha256": "d123d0245289eb74ba86ca4f3ba6d2797039af3aecf22842558df46527bbde35",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c017\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.69,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c018",
+    "generator": "orval",
+    "sha256": "467d9b246eadbdb2b501e8fc7237cdc9928ad0af296e96c4bced820ca7e94f93",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c018\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.47,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c019",
+    "generator": "orval",
+    "sha256": "0902875951986b071eac97e6235f65a2b52ea04297e7d96e6a09f35af43ce57d",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c019\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.91,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c020",
+    "generator": "orval",
+    "sha256": "03d4a38142e8b0f1e9375ca480e70e1209e19f4533976d0010cbb20b0ba576bb",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c020\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.86,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c021",
+    "generator": "orval",
+    "sha256": "2f3ca4e3d0a62b49b214c9a85f738533517e2d28346ddf05d3399838502f4f39",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c021\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.81,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c022",
+    "generator": "orval",
+    "sha256": "3c472fc8f0bb1408160f87a28a1b143aab1166d4fe5c22e472a040db0360d2d0",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c022\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.42,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c023",
+    "generator": "orval",
+    "sha256": "3200e6e891dc63403a56a33ac03ff02a55fe1eec45c46b58273987602ecad37c",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c023\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.08,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c024",
+    "generator": "orval",
+    "sha256": "02e10fbdeb208d52e5ef8d186608f7d75190fa676b11cf909b0bd9af4556554e",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c024\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.92,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c025",
+    "generator": "orval",
+    "sha256": "45791ca44874ed6c8177bd45ac19a5d3765448ec0ca26bc2a12f3bd51cd8361d",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c025\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.45,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c026",
+    "generator": "orval",
+    "sha256": "9cb2268bf1ec1a8c4303a7b941ef307485205c7ae83b09bc1bbd9fd1f45502e0",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c026\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.7,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c035",
+    "generator": "orval",
+    "sha256": "3aae738e32b432bd28f065aa57cc452e599048a9976283a2604c5864cfd43dcc",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c035\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.55,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c036",
+    "generator": "orval",
+    "sha256": "b40ecf550dc261710cfecfcf67f5ece3a3e83acd8a1e480baaecd65a527df3be",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c036\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.06,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c037",
+    "generator": "orval",
+    "sha256": "f1d69a70ff81b74557aab66b3b02ab85f945d9c409d04195ad93d6091f037aae",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c037\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.41,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c038",
+    "generator": "orval",
+    "sha256": "7cf86a83139015fd9b08eaf1fc0f330d59d560cfa1aef9c8aeecc2267c98fb85",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c038\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.75,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c039",
+    "generator": "orval",
+    "sha256": "a75c8a210039ffd1912c20598bba54f5cf15956fea5a00b462429d3369d93f1f",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c039\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.0,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c045",
+    "generator": "orval",
+    "sha256": "27a2cab380d6bc82eaf092091559f096e7a3cf06505c0f38789d98f5391c90c3",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c045\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.92,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c046",
+    "generator": "orval",
+    "sha256": "38b403d6578fa6d4ebabe814dbb52310b648b16d05ed692423c98c928ae8a4b9",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c046\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.8,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c047",
+    "generator": "orval",
+    "sha256": "6d4c13804afe0a1a3de5317481d2aa714fd39d4cd3983d9ce8a4f219df8469b3",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c047\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.28,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c053",
+    "generator": "orval",
+    "sha256": "30feb6839423be8f39f24745a97ab58a145df4b1f536cc788bc0bebdee6bf916",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c053\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.09,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c054",
+    "generator": "orval",
+    "sha256": "96a7b1b4c4d2b4058db21c753aecd4c02f9b828fde62f37cd14e11559922cf1d",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c054\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.2,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c055",
+    "generator": "orval",
+    "sha256": "41d1c418ed8617f0161aff2d744c6045a67117b35e836e3ae754074b0c4ffe1a",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c055\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.27,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c056",
+    "generator": "orval",
+    "sha256": "6c6335abc0a71b9a208df01b8ba4b7d9970c99eef5ca9663b8137182e3320649",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c056\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.17,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c057",
+    "generator": "orval",
+    "sha256": "7e23de8eac798d7aad2e9a1f62d2d9fa421efee45793906f96af8fdfa3039589",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c057\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.94,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c058",
+    "generator": "orval",
+    "sha256": "b7f6c2e629c494787e6e134f6dd6955fcf35cce913a00d4553f7b3194fe2032c",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c058\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.02,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c059",
+    "generator": "orval",
+    "sha256": "1a52ce2080c061526b4bcbebc3966e8c6fd8d6b91a0e7b982f2c57af796760cc",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c059\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.0,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c060",
+    "generator": "orval",
+    "sha256": "63767ea5b7bbacb84d8b2903f9681267993d9988bd61b7aefd7fccf611b801f0",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c060\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.16,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c061",
+    "generator": "orval",
+    "sha256": "b25fb70641087b6e2a39ab865d641c9a0cc09c2112a78b429d48801fce746363",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c061\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.17,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c062",
+    "generator": "orval",
+    "sha256": "e082496fcbf271a94be13565bbc5030a1939a8ebc84d27fb9e33321fdb7c3b71",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c062\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.91,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c063",
+    "generator": "orval",
+    "sha256": "8dc8ec79517202fb7dedfc260d3b8011e6dede2a43033089f1b32ad0ed22905f",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c063\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.23,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c064",
+    "generator": "orval",
+    "sha256": "e8f25b5cee10079eb20f0a3185b3fade42fa369106817db5c6836f996fad1e8b",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c064\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.2,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c065",
+    "generator": "orval",
+    "sha256": "ec77a65f78f049267911f6f363ba2e6ee8489433e9d67de88504ebb7296257d0",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c065\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.8,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c074",
+    "generator": "orval",
+    "sha256": "8a782579ed630a5781fa4692b783f14166bb772d3148a3416f022bb223eaa8e2",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c074\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.5,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c075",
+    "generator": "orval",
+    "sha256": "9205182db200564febe80c60af938363e69b203ef39c9d1bcaa023e1f06b840a",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c075\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 2.25,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c076",
+    "generator": "orval",
+    "sha256": "acb6438b8fc5697edafa5ee1d691e063d8a3fafcf51593284beb8757a28b3914",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c076\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.95,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c077",
+    "generator": "orval",
+    "sha256": "eb3a464629ebed1e24f34f7fcebd1ae3f32a3390df7ec58eab23cfce6c0c6f22",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c077\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.92,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c078",
+    "generator": "orval",
+    "sha256": "382480d3bf285ce54a1df0e6ee6a2e1443063d0991d403835932ebf7205817fa",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c078\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.55,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c084",
+    "generator": "orval",
+    "sha256": "b9f1efd2009d5f4c9b8d5c5cbc4d3e22b059ec899325b73443e66621689f9f99",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c084\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.34,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c085",
+    "generator": "orval",
+    "sha256": "cc2d9a2ca9e01002f644065742350474a96ade6233c0b1714e282b741c3ce016",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c085\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.47,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c086",
+    "generator": "orval",
+    "sha256": "82ed5b81ff046d86c55fdf1d6c1d50fd7bb6f1d5acf3c72093d9b279f45c14b3",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c086\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.45,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c092",
+    "generator": "orval",
+    "sha256": "8de11e52d1635613b763fb5c4d6e035b962a2b507c3cc1da63426e64fba0535f",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c092\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.49,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c093",
+    "generator": "orval",
+    "sha256": "9eb4a144b656405939a458849d82ce78420f8def4a149b8eee12828b4c67b986",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c093\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.72,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c094",
+    "generator": "orval",
+    "sha256": "a86452a750210ada61f36bc6ec4f27af0afcbb24975b7511660e5891db930ded",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c094\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.64,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c095",
+    "generator": "orval",
+    "sha256": "3a20e8b8d04875cf49065ac9f17d398bc0b70ac2175973319135feee74bdd752",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c095\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.67,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c096",
+    "generator": "orval",
+    "sha256": "a9e5192e666079788e372373e431b586f0b60f0dcd7767f151fc936d2efa0a70",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c096\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.64,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c097",
+    "generator": "orval",
+    "sha256": "74fa59aa2a9a07b15bb636ac4cf5667949990b9d1fd96c2c04c1b5fb5a92902c",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c097\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.48,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c098",
+    "generator": "orval",
+    "sha256": "6f0ad2609614d884fdce49519e810e40ce52f45a4b1aa0880d88cec13f76c4de",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c098\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.66,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c099",
+    "generator": "orval",
+    "sha256": "4c6952e015c9bf58177e36e0cdb872b676d3b17f4842160805c6b6959c6fa51e",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c099\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.59,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c100",
+    "generator": "orval",
+    "sha256": "b17043899fe1e42d5b721e55a6ba8ee6614d4ab3c8a37539c72560b9d967befd",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c100\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.42,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c101",
+    "generator": "orval",
+    "sha256": "81c1842fde927fb54791c0c35623eb176c91c3487020e2f1168eb04ab25ce490",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c101\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.95,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c102",
+    "generator": "orval",
+    "sha256": "681060e927813ca89279f6963ddd36675bbeb6e98a7b177d88f05602537a3a6b",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c102\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.69,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c103",
+    "generator": "orval",
+    "sha256": "629097dc10233ead8215a39c4545b8b22d8a3995dcc0e85ef8a966031c3b565f",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c103\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.49,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c104",
+    "generator": "orval",
+    "sha256": "68dba075d29bf88b17f1a01c2aa97b2bf60f2bbb96432da27723950cd582dc1a",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c104\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.78,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c114",
+    "generator": "orval",
+    "sha256": "44ae3e14e5a1a67a945259855482a78a2a3bb4335affe8037e1a36790b0e2508",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c114\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.77,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c116",
+    "generator": "orval",
+    "sha256": "7e8190a733c19629de1ffa083074f63fd5934563ab35abb2ce4088926a51cbe3",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c116\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.52,
+    "status": "GENERATED"
+  },
+  {
+    "case_id": "c117",
+    "generator": "orval",
+    "sha256": "f83d1d536def09bc938e79a18562d42cb5d6d2b8c71bb7447e24a757319c6fee",
+    "command": [
+      "orval",
+      "--config",
+      "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c117\\orval.config.mjs"
+    ],
+    "exit": 0,
+    "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+    "stderr": "",
+    "elapsed_seconds": 1.44,
+    "status": "GENERATED"
+  }
+]

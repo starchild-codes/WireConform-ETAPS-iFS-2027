@@ -1,0 +1,2448 @@
+{
+  "summary": {
+    "n_defined": 117,
+    "n_observations": 111,
+    "status_counts": {
+      "PASS": 58,
+      "FAIL": 48,
+      "NOT_RUN": 6,
+      "ENCODING_REVIEW": 5
+    },
+    "note": "NOT_RUN, INVALID_MULTIPLE_OBSERVATIONS, and ENCODING_REVIEW are excluded from untriaged conformance pass rates"
+  },
+  "cases": [
+    {
+      "case_id": "c001",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c001?item=azure",
+      "observed_url": "/cases/c001?item=azure",
+      "expected_query_pairs": [
+        [
+          "item",
+          "azure"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "azure"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c002",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c002?item=azure",
+      "observed_url": "/cases/c002?item=azure",
+      "expected_query_pairs": [
+        [
+          "item",
+          "azure"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "azure"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c003",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c003?item=red,blue",
+      "observed_url": "/cases/c003?item=red,blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "red,blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "red,blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c004",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c004?item=red&item=blue",
+      "observed_url": "/cases/c004?item=red&item=blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "blue"
+        ],
+        [
+          "item",
+          "red"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "blue"
+        ],
+        [
+          "item",
+          "red"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c005",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c005?item=red&item=blue",
+      "observed_url": "/cases/c005?item=red&item=blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "blue"
+        ],
+        [
+          "item",
+          "red"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "blue"
+        ],
+        [
+          "item",
+          "red"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c006",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c006?item=a,red,b,blue",
+      "observed_url": "/cases/c006?item=a,red,b,blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "a,red,b,blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "a,red,b,blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c007",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c007?a=red&b=blue",
+      "observed_url": "/cases/c007?a=red&b=blue",
+      "expected_query_pairs": [
+        [
+          "a",
+          "red"
+        ],
+        [
+          "b",
+          "blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "a",
+          "red"
+        ],
+        [
+          "b",
+          "blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c008",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c008?a=red&b=blue",
+      "observed_url": "/cases/c008?a=red&b=blue",
+      "expected_query_pairs": [
+        [
+          "a",
+          "red"
+        ],
+        [
+          "b",
+          "blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "a",
+          "red"
+        ],
+        [
+          "b",
+          "blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c009",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c009/p/azure",
+      "observed_url": "/cases/c009/p/azure",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c010",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c010/p/azure",
+      "observed_url": "/cases/c010/p/azure",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c011",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c011/p/red,blue",
+      "observed_url": "/cases/c011/p/red,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c012",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c012/p/red,blue",
+      "observed_url": "/cases/c012/p/red,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c013",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c013/p/red,blue",
+      "observed_url": "/cases/c013/p/red,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c014",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c014/p/a,red,b,blue",
+      "observed_url": "/cases/c014/p/a,red,b,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c015",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c015/p/a,red,b,blue",
+      "observed_url": "/cases/c015/p/a,red,b,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c016",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c016/p/a=red,b=blue",
+      "observed_url": "/cases/c016/p/a,red,b,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c017",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c017/p/.azure",
+      "observed_url": "/cases/c017/p/azure",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c018",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c018/p/.red,blue",
+      "observed_url": "/cases/c018/p/red,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c019",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c019/p/.red.blue",
+      "observed_url": "/cases/c019/p/red,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c020",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c020/p/.a,red,b,blue",
+      "observed_url": "/cases/c020/p/a,red,b,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c021",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c021/p/.a=red.b=blue",
+      "observed_url": "/cases/c021/p/a,red,b,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c022",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c022/p/;item=azure",
+      "observed_url": "/cases/c022/p/azure",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c023",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c023/p/;item=red,blue",
+      "observed_url": "/cases/c023/p/red,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c024",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c024/p/;item=red;item=blue",
+      "observed_url": "/cases/c024/p/red,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c025",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c025/p/;item=a,red,b,blue",
+      "observed_url": "/cases/c025/p/a,red,b,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c026",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c026/p/;a=red;b=blue",
+      "observed_url": "/cases/c026/p/a,red,b,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c027",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c027",
+      "observed_url": "/cases/c027",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "azure"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "azure"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "c028",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c028",
+      "observed_url": "/cases/c028",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "azure"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "azure"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "c029",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c029",
+      "observed_url": "/cases/c029",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "red,blue"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "red, blue"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c030",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c030",
+      "observed_url": "/cases/c030",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "red,blue"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "red, blue"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c031",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c031",
+      "observed_url": "/cases/c031",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "red,blue"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "red, blue"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c032",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c032",
+      "observed_url": "/cases/c032",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a,red,b,blue"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":\"red\",\"b\":\"blue\"}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c033",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c033",
+      "observed_url": "/cases/c033",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a,red,b,blue"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":\"red\",\"b\":\"blue\"}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c034",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c034",
+      "observed_url": "/cases/c034",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a=red,b=blue"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":\"red\",\"b\":\"blue\"}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c035",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c035?item=red%20blue",
+      "observed_url": "/cases/c035?item=red%20blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "red blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "red blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c036",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c037",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": false,
+      "needs_encoding_review": true,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c037?item=red%7Cblue",
+      "observed_url": "/cases/c037?item=red|blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "red|blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "red|blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "ENCODING_REVIEW"
+    },
+    {
+      "case_id": "c038",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c039",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": false,
+      "needs_encoding_review": true,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c039?item%5Ba%5D=red&item%5Bb%5D=blue",
+      "observed_url": "/cases/c039?item[a]=red&item[b]=blue",
+      "expected_query_pairs": [
+        [
+          "item[a]",
+          "red"
+        ],
+        [
+          "item[b]",
+          "blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item[a]",
+          "red"
+        ],
+        [
+          "item[b]",
+          "blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "ENCODING_REVIEW"
+    },
+    {
+      "case_id": "c040",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c040?item=7",
+      "observed_url": "/cases/c040?item=7",
+      "expected_query_pairs": [
+        [
+          "item",
+          "7"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "7"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c041",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c041?item=7",
+      "observed_url": "/cases/c041?item=7",
+      "expected_query_pairs": [
+        [
+          "item",
+          "7"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "7"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c042",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c042?item=1,2,3",
+      "observed_url": "/cases/c042?item=1,2,3",
+      "expected_query_pairs": [
+        [
+          "item",
+          "1,2,3"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "1,2,3"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c043",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c043?item=1&item=2&item=3",
+      "observed_url": "/cases/c043?item=1&item=2&item=3",
+      "expected_query_pairs": [
+        [
+          "item",
+          "1"
+        ],
+        [
+          "item",
+          "2"
+        ],
+        [
+          "item",
+          "3"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "1"
+        ],
+        [
+          "item",
+          "2"
+        ],
+        [
+          "item",
+          "3"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c044",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c044?item=1&item=2&item=3",
+      "observed_url": "/cases/c044?item=1&item=2&item=3",
+      "expected_query_pairs": [
+        [
+          "item",
+          "1"
+        ],
+        [
+          "item",
+          "2"
+        ],
+        [
+          "item",
+          "3"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "1"
+        ],
+        [
+          "item",
+          "2"
+        ],
+        [
+          "item",
+          "3"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c045",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c045?item=a,1,b,2",
+      "observed_url": "/cases/c045?item=a,1,b,2",
+      "expected_query_pairs": [
+        [
+          "item",
+          "a,1,b,2"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "a,1,b,2"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c046",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c046?a=1&b=2",
+      "observed_url": "/cases/c046?a=1&b=2",
+      "expected_query_pairs": [
+        [
+          "a",
+          "1"
+        ],
+        [
+          "b",
+          "2"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "a",
+          "1"
+        ],
+        [
+          "b",
+          "2"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c047",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c047?a=1&b=2",
+      "observed_url": "/cases/c047?a=1&b=2",
+      "expected_query_pairs": [
+        [
+          "a",
+          "1"
+        ],
+        [
+          "b",
+          "2"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "a",
+          "1"
+        ],
+        [
+          "b",
+          "2"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c048",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c048/p/7",
+      "observed_url": "/cases/c048/p/7",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c049",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c049/p/7",
+      "observed_url": "/cases/c049/p/7",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c050",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c050/p/1,2,3",
+      "observed_url": "/cases/c050/p/1,2,3",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c051",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c051/p/1,2,3",
+      "observed_url": "/cases/c051/p/1,2,3",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c052",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c052/p/1,2,3",
+      "observed_url": "/cases/c052/p/1,2,3",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c053",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c053/p/a,1,b,2",
+      "observed_url": "/cases/c053/p/a,1,b,2",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c054",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c054/p/a,1,b,2",
+      "observed_url": "/cases/c054/p/a,1,b,2",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c055",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c055/p/a=1,b=2",
+      "observed_url": "/cases/c055/p/a,1,b,2",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c056",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c056/p/.7",
+      "observed_url": "/cases/c056/p/7",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c057",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c057/p/.1,2,3",
+      "observed_url": "/cases/c057/p/1,2,3",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c058",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c058/p/.1.2.3",
+      "observed_url": "/cases/c058/p/1,2,3",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c059",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c059/p/.a,1,b,2",
+      "observed_url": "/cases/c059/p/a,1,b,2",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c060",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c060/p/.a=1.b=2",
+      "observed_url": "/cases/c060/p/a,1,b,2",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c061",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c061/p/;item=7",
+      "observed_url": "/cases/c061/p/7",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c062",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c062/p/;item=1,2,3",
+      "observed_url": "/cases/c062/p/1,2,3",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c063",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c063/p/;item=1;item=2;item=3",
+      "observed_url": "/cases/c063/p/1,2,3",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c064",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c064/p/;item=a,1,b,2",
+      "observed_url": "/cases/c064/p/a,1,b,2",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c065",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c065/p/;a=1;b=2",
+      "observed_url": "/cases/c065/p/a,1,b,2",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c066",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c066",
+      "observed_url": "/cases/c066",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "7"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "7"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "c067",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c067",
+      "observed_url": "/cases/c067",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "7"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "7"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "c068",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c068",
+      "observed_url": "/cases/c068",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "1,2,3"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "1, 2, 3"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c069",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c069",
+      "observed_url": "/cases/c069",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "1,2,3"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "1, 2, 3"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c070",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c070",
+      "observed_url": "/cases/c070",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "1,2,3"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "1, 2, 3"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c071",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c071",
+      "observed_url": "/cases/c071",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a,1,b,2"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":1,\"b\":2}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c072",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c072",
+      "observed_url": "/cases/c072",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a,1,b,2"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":1,\"b\":2}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c073",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c073",
+      "observed_url": "/cases/c073",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a=1,b=2"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":1,\"b\":2}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c074",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c074?item=1%202%203",
+      "observed_url": "/cases/c074?item=1%202%203",
+      "expected_query_pairs": [
+        [
+          "item",
+          "1 2 3"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "1 2 3"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c075",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c076",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": false,
+      "needs_encoding_review": true,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c076?item=1%7C2%7C3",
+      "observed_url": "/cases/c076?item=1|2|3",
+      "expected_query_pairs": [
+        [
+          "item",
+          "1|2|3"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "1|2|3"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "ENCODING_REVIEW"
+    },
+    {
+      "case_id": "c077",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c078",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": false,
+      "needs_encoding_review": true,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c078?item%5Ba%5D=1&item%5Bb%5D=2",
+      "observed_url": "/cases/c078?item[a]=1&item[b]=2",
+      "expected_query_pairs": [
+        [
+          "item[a]",
+          "1"
+        ],
+        [
+          "item[b]",
+          "2"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item[a]",
+          "1"
+        ],
+        [
+          "item[b]",
+          "2"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "ENCODING_REVIEW"
+    },
+    {
+      "case_id": "c079",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c079?item=z",
+      "observed_url": "/cases/c079?item=z",
+      "expected_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c080",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c080?item=z",
+      "observed_url": "/cases/c080?item=z",
+      "expected_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c081",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c081?item=z",
+      "observed_url": "/cases/c081?item=z",
+      "expected_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c082",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c082?item=z",
+      "observed_url": "/cases/c082?item=z",
+      "expected_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c083",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c083?item=z",
+      "observed_url": "/cases/c083?item=z",
+      "expected_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c084",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c084?item=a,z",
+      "observed_url": "/cases/c084?item=a,z",
+      "expected_query_pairs": [
+        [
+          "item",
+          "a,z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "a,z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c085",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c085?a=z",
+      "observed_url": "/cases/c085?a=z",
+      "expected_query_pairs": [
+        [
+          "a",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "a",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c086",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c086?a=z",
+      "observed_url": "/cases/c086?a=z",
+      "expected_query_pairs": [
+        [
+          "a",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "a",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c087",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c087/p/z",
+      "observed_url": "/cases/c087/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c088",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c088/p/z",
+      "observed_url": "/cases/c088/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c089",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c089/p/z",
+      "observed_url": "/cases/c089/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c090",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c090/p/z",
+      "observed_url": "/cases/c090/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c091",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c091/p/z",
+      "observed_url": "/cases/c091/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c092",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c092/p/a,z",
+      "observed_url": "/cases/c092/p/a,z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c093",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c093/p/a,z",
+      "observed_url": "/cases/c093/p/a,z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c094",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c094/p/a=z",
+      "observed_url": "/cases/c094/p/a,z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c095",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c095/p/.z",
+      "observed_url": "/cases/c095/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c096",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c096/p/.z",
+      "observed_url": "/cases/c096/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c097",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c097/p/.z",
+      "observed_url": "/cases/c097/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c098",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c098/p/.a,z",
+      "observed_url": "/cases/c098/p/a,z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c099",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c099/p/.a=z",
+      "observed_url": "/cases/c099/p/a,z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c100",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c100/p/;item=z",
+      "observed_url": "/cases/c100/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c101",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c101/p/;item=z",
+      "observed_url": "/cases/c101/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c102",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c102/p/;item=z",
+      "observed_url": "/cases/c102/p/z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c103",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c103/p/;item=a,z",
+      "observed_url": "/cases/c103/p/a,z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c104",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c104/p/;a=z",
+      "observed_url": "/cases/c104/p/a,z",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c105",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c105",
+      "observed_url": "/cases/c105",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "z"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "z"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "c106",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c106",
+      "observed_url": "/cases/c106",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "z"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "z"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "c107",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c107",
+      "observed_url": "/cases/c107",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "z"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "z"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "c108",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c108",
+      "observed_url": "/cases/c108",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "z"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "z"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "c109",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c109",
+      "observed_url": "/cases/c109",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "z"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "z"
+      },
+      "status": "PASS"
+    },
+    {
+      "case_id": "c110",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c110",
+      "observed_url": "/cases/c110",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a,z"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":\"z\"}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c111",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c111",
+      "observed_url": "/cases/c111",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a,z"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":\"z\"}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c112",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c112",
+      "observed_url": "/cases/c112",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a=z"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":\"z\"}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c113",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c113?item=z",
+      "observed_url": "/cases/c113?item=z",
+      "expected_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c114",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c115",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c115?item=z",
+      "observed_url": "/cases/c115?item=z",
+      "expected_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c116",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c117",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": false,
+      "needs_encoding_review": true,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c117?item%5Ba%5D=z",
+      "observed_url": "/cases/c117?item[a]=z",
+      "expected_query_pairs": [
+        [
+          "item[a]",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item[a]",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "ENCODING_REVIEW"
+    }
+  ]
+}

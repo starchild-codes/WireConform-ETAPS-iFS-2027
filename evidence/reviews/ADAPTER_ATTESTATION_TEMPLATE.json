@@ -1,0 +1,14 @@
+{
+  "generator": "REPLACE_WITH_ONE_OF_openapi-generator_orval_hey-api",
+  "audit_status": "UNVERIFIED_DO_NOT_COUNT_PASS_FAIL",
+  "adapter_file": "runner/adapters/bundle_probe.mts",
+  "adapter_sha256": "TO_BE_COMPUTED_FROM_EXECUTED_FILE",
+  "bundle_sha256": "TO_BE_COMPUTED_FROM_EXECUTED_SPEC",
+  "generated_source_provenance": "link_to_bundle_generation.json",
+  "verified_operations": {
+    "query": "method_name_and_generated_source_path_plus_lines",
+    "path": "method_name_and_generated_source_path_plus_lines",
+    "header": "method_name_and_generated_source_path_plus_lines"
+  },
+  "reviewer_notes": "record how typed values flow through generated code without adapter serialization; include smoke test case IDs and request capture evidence"
+}

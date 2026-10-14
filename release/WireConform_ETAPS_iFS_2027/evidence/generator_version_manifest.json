@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-13T19:15:00Z",
+  "study_mode": "real generated SDK execution; merged generation with individual-spec mismatch reproduction",
+  "environment": {
+    "os": "Windows 11 10.0.26200 AMD64",
+    "python": "3.12.14",
+    "node": "24.17.0",
+    "npm": "11.13.0",
+    "typescript": "6.0.3"
+  },
+  "input": {
+    "path": "outputs/bundle/all_117.json",
+    "sha256": "9a0da3e9d90df88ce0f0b21f95456fd04c8de58ee8761484270419f5503b1775",
+    "operations": 117,
+    "individual_specs": 117
+  },
+  "generators": {
+    "openapi-generator": {
+      "cli_package": "@openapitools/openapi-generator-cli@2.41.0",
+      "generator_core": "7.26.0",
+      "target": "typescript-fetch",
+      "command": "openapi-generator-cli generate -i outputs/bundle/all_117.json -g typescript-fetch -o experiments/bundle/openapi-generator/generated --additional-properties supportsES6=true,typescriptThreePlus=true",
+      "generation_record": "experiments/bundle/openapi-generator/bundle_generation.json",
+      "generated_entrypoint": "experiments/bundle/openapi-generator/generated/apis/DefaultApi.ts"
+    },
+    "orval": {
+      "package": "orval@8.42.0",
+      "target": "fetch",
+      "command": "orval --config experiments/bundle/orval/orval.config.mjs",
+      "generation_record": "experiments/bundle/orval/bundle_generation.json",
+      "generated_entrypoint": "experiments/bundle/orval/generated/client.ts"
+    },
+    "hey-api": {
+      "generator_package": "@hey-api/openapi-ts@0.99.0",
+      "client_package": "@hey-api/client-fetch@0.13.1",
+      "target": "fetch SDK plugin",
+      "command": "openapi-ts (configuration: openapi-ts.config.mjs)",
+      "generation_record": "experiments/bundle/hey-api/bundle_generation.json",
+      "generated_entrypoint": "experiments/bundle/hey-api/generated/sdk.gen.ts"
+    }
+  },
+  "validation": {
+    "external_validator": "@redocly/cli@2.63.0",
+    "validator_log": "evidence/stage_logs/redocly_bundle.log",
+    "bundle_errors": 0,
+    "bundle_documentation_warnings": 234,
+    "adapter_audits": [
+      "evidence/reviews/openapi-generator_adapter_audit.json",
+      "evidence/reviews/orval_adapter_audit.json",
+      "evidence/reviews/hey-api_adapter_audit.json"
+    ],
+    "bundle_adapter_sha256": "06ebb99f695e4bed2235a203c72e9f30d62a891095a76cfbd37ec282acd40410"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "generator": "openapi-generator",
+  "mode": "MERGED_117_OPERATIONS_NOT_INDIVIDUAL_SPECS",
+  "bundle_sha256": "9a0da3e9d90df88ce0f0b21f95456fd04c8de58ee8761484270419f5503b1775",
+  "command": [
+    "openapi-generator-cli",
+    "generate",
+    "-i",
+    "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\outputs\\bundle\\all_117.json",
+    "-g",
+    "typescript-fetch",
+    "-o",
+    "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated",
+    "--additional-properties",
+    "supportsES6=true,typescriptThreePlus=true"
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "node": {
+      "exit": 0,
+      "stdout_tail": "v24.17.0\n",
+      "stderr_tail": "",
+      "seconds": 0.032
+    },
+    "npm": {
+      "exit": 1,
+      "stdout_tail": "",
+      "stderr_tail": "'\\\"C:\\Program Files\\nodejs\\npm.CMD\\\"' is not recognized as an internal or external command,\noperable program or batch file.\n",
+      "seconds": 0.031
+    },
+    "generator": {
+      "exit": 0,
+      "stdout_tail": "Download 7.26.0 ...\nDownloaded 7.26.0\nDid set selected version to 7.26.0\n7.26.0\n",
+      "stderr_tail": "",
+      "seconds": 42.687
+    }
+  },
+  "result": {
+    "exit": 0,
+    "stdout_tail": "[main] WARN  o.o.codegen.DefaultCodegen - OpenAPI 3.1 support is still in beta. To report an issue related to 3.1 spec, please kindly open an issue in the Github repo: https://github.com/openAPITools/openapi-generator.\n[main] INFO  o.o.codegen.DefaultGenerator - Generating with dryRun=false\n[main] INFO  o.o.c.ignore.CodegenIgnoreProcessor - Output directory (C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated) does not exist, or is inaccessible. No file (.openapi-generator-ignore) will be evaluated.\n[main] INFO  o.o.codegen.DefaultGenerator - OpenAPI Generator: typescript-fetch (client)\n[main] INFO  o.o.codegen.DefaultGenerator - Generator 'typescript-fetch' is considered stable.\n[main] INFO  o.o.c.l.AbstractTypeScriptClientCodegen - Hint: Environment variable 'TS_POST_PROCESS_FILE' (optional) not defined. E.g. to format the source code, please try 'export TS_POST_PROCESS_FILE=\"/usr/local/bin/prettier --write\"' (Linux/Mac)\n[main] INFO  o.o.c.l.AbstractTypeScriptClientCodegen - Note: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).\n[main] INFO  o.o.codegen.InlineModelResolver - Inline schema created as probeC006_item_parameter. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings probeC006_item_parameter=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings probeC006_item_parameter=NewModel,ModelA=NewModelA in CLI).\n[main] INFO  o.o.codegen.InlineModelResolver - Inline schema created as probeC007_item_parameter. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings probeC007_item_parameter=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings probeC007_item_parameter=NewModel,ModelA=NewModelA in CLI).\n[main] INFO  o.o.codegen.InlineModelResolver - Inline schema created as probeC045_item_parameter. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings probeC045_item_parameter=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings probeC045_item_parameter=NewModel,ModelA=NewModelA in CLI).\n[main] INFO  o.o.codegen.InlineModelResolver - Inline schema created as probeC084_item_parameter. To have complete control of the model name, set the `title` field or use the modelNameMapping option (e.g. --model-name-mappings probeC084_item_parameter=NewModel,ModelA=NewModelA in CLI) or inlineSchemaNameMapping option (--inline-schema-name-mappings probeC084_item_parameter=NewModel,ModelA=NewModelA in CLI).\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\models\\ProbeC006ItemParameter.ts\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\docs\\ProbeC006ItemParameter.md\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\models\\ProbeC007ItemParameter.ts\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\docs\\ProbeC007ItemParameter.md\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\models\\ProbeC045ItemParameter.ts\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\docs\\ProbeC045ItemParameter.md\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\models\\ProbeC084ItemParameter.ts\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\docs\\ProbeC084ItemParameter.md\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\apis\\DefaultApi.ts\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\docs\\DefaultApi.md\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\index.ts\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\runtime.ts\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\models\\index.ts\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\apis\\index.ts\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\.openapi-generator-ignore\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\.openapi-generator\\VERSION\n[main] INFO  o.o.codegen.TemplateManager - writing file C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\openapi-generator\\generated\\.openapi-generator\\FILES\n############################################################################################\n# Thanks for using OpenAPI Generator.                                                      #\n# We appreciate your support! Please consider donating to help us maintain this project.   #\n# https://opencollective.com/openapi_generator/donate                                      #\n############################################################################################\n",
+    "stderr_tail": "",
+    "seconds": 3.094
+  },
+  "status": "GENERATED",
+  "generated_file_count": 17,
+  "generated_source_hashes": [
+    {
+      "path": "generated\\.openapi-generator\\FILES",
+      "sha256": "c15a5bedc55d2c26d1cc56f5ffd8cc5a48d31cda0055e2e6b41b90f26fafd425"
+    },
+    {
+      "path": "generated\\.openapi-generator\\VERSION",
+      "sha256": "41f910efa5224d2edcdad38fc1ad8cd862134632dab5ebcaf2681f6a7b73b985"
+    },
+    {
+      "path": "generated\\.openapi-generator-ignore",
+      "sha256": "a6ed8f4e275eee926d27e0c52f30f2d1c4d8409465ac1fbc4511f7cc62de51db"
+    },
+    {
+      "path": "generated\\apis\\DefaultApi.ts",
+      "sha256": "2ea2da477656d95f3aefc8c9ae8c2a9382e650b4dc19dd0a901bd1dc20aec5cf"
+    },
+    {
+      "path": "generated\\apis\\index.ts",
+      "sha256": "68cf9082ef19bbde36388e812dfa77ba7956c9086af00e5ef14ce00a80067454"
+    },
+    {
+      "path": "generated\\docs\\DefaultApi.md",
+      "sha256": "401f1a464ed610a9ea0e055e59fb37dfe8fe548d351310e63f5cfe775953cef3"
+    },
+    {
+      "path": "generated\\docs\\ProbeC006ItemParameter.md",
+      "sha256": "3063a13b0c3b03a8e8e1a20fe8fad406ae60e437ccb57c9f0496521a5156c092"
+    },
+    {
+      "path": "generated\\docs\\ProbeC007ItemParameter.md",
+      "sha256": "4ad885d0ccd359cff3819ef58d85a8230f2941eea5b48649317f9441a1234f55"
+    },
+    {
+      "path": "generated\\docs\\ProbeC045ItemParameter.md",
+      "sha256": "eb8dba446cd4729061400dff42f86fbbbb1a60b24d5f25779649f84ce4aaf89d"
+    },
+    {
+      "path": "generated\\docs\\ProbeC084ItemParameter.md",
+      "sha256": "2aad80706f8f127d0778d537b15fa30531c668ccc934306b4eb296a5684376eb"
+    },
+    {
+      "path": "generated\\index.ts",
+      "sha256": "7fa0f2909685ed2bd45a1d4cded16da3f25b2bd3e41149018c2daf4c3f6cf42b"
+    },
+    {
+      "path": "generated\\models\\index.ts",
+      "sha256": "16408f59e6110b16d93a4f719159f32703b68e06279d1b70ca9c67b2f19bce84"
+    },
+    {
+      "path": "generated\\models\\ProbeC006ItemParameter.ts",
+      "sha256": "20c68ab01e735321bf449603243832ef44f2c4d504ef51f026b9dc9b5d19b847"
+    },
+    {
+      "path": "generated\\models\\ProbeC007ItemParameter.ts",
+      "sha256": "fe5795429040b57a2bb9a0243e3ad78fa1bbef98ac36df644ef08fd1776acdf6"
+    },
+    {
+      "path": "generated\\models\\ProbeC045ItemParameter.ts",
+      "sha256": "7344cd006a89365d147ea7859a0df00eb4fc9643aca4e7e748d751e5e028213c"
+    },
+    {
+      "path": "generated\\models\\ProbeC084ItemParameter.ts",
+      "sha256": "fc1d95adb210e8ca191c9b118f96fed8380579e1bf54c0f5e6446cf760efc2ea"
+    },
+    {
+      "path": "generated\\runtime.ts",
+      "sha256": "eb3092210f1081f13f7dc05174bd458b47964f09354418e38952280b9b90ad1d"
+    }
+  ]
+}

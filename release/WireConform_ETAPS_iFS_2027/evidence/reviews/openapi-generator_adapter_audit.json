@@ -1,0 +1,15 @@
+{
+  "generator": "openapi-generator",
+  "audit_status": "APPROVED_FOR_EXECUTION",
+  "adapter_file": "runner/adapters/bundle_probe.mts",
+  "adapter_sha256": "06ebb99f695e4bed2235a203c72e9f30d62a891095a76cfbd37ec282acd40410",
+  "bundle_sha256": "9a0da3e9d90df88ce0f0b21f95456fd04c8de58ee8761484270419f5503b1775",
+  "generated_source_provenance": "experiments/bundle/openapi-generator/bundle_generation.json",
+  "verified_operations": {
+    "query": "probeC003: generated/apis/DefaultApi.ts:940-972 accepts item and assigns the joined value to generated queryParameters; adapter supplies only {item:value}.",
+    "path": "probeC016: generated/apis/DefaultApi.ts:1462-1498 accepts item and the generated method performs path replacement/encoding; adapter supplies only {item:value}.",
+    "header": "probeC034: generated/apis/DefaultApi.ts:2190-2222 accepts xTestParam and the generated method builds X-Test-Param; adapter supplies only {xTestParam:value}."
+  },
+  "compile_check": "PASS: TypeScript 6.0.3 --noEmit over generated/index.ts; evidence/stage_logs/openapi-generator_compile.log",
+  "reviewer_notes": "The adapter imports the emitted SDK, constructs DefaultApi with loopback basePath, and calls the generated typed operation. It contains no fetch call and no path/query/header serialization. Runtime captures remain required before PASS/FAIL."
+}

@@ -1,0 +1,9 @@
+.openapi-generator-ignore
+apis/DefaultApi.ts
+apis/index.ts
+docs/DefaultApi.md
+docs/ProbeItemParameter.md
+index.ts
+models/ProbeItemParameter.ts
+models/index.ts
+runtime.ts

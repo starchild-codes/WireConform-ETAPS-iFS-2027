@@ -1,0 +1,47 @@
+[
+  {
+    "generator": "openapi-generator",
+    "status": "GENERATED",
+    "typescript_js_files": 9,
+    "operation_name_hits": 117,
+    "operation_name_examples": [
+      "probeC001",
+      "probeC002",
+      "probeC003",
+      "probeC004",
+      "probeC005"
+    ],
+    "full_named_operation_coverage": true,
+    "warning": "Static string check only; no SDK invoked, no HTTP capture"
+  },
+  {
+    "generator": "orval",
+    "status": "GENERATED",
+    "typescript_js_files": 1,
+    "operation_name_hits": 117,
+    "operation_name_examples": [
+      "probeC001",
+      "probeC002",
+      "probeC003",
+      "probeC004",
+      "probeC005"
+    ],
+    "full_named_operation_coverage": true,
+    "warning": "Static string check only; no SDK invoked, no HTTP capture"
+  },
+  {
+    "generator": "hey-api",
+    "status": "GENERATED",
+    "typescript_js_files": 16,
+    "operation_name_hits": 117,
+    "operation_name_examples": [
+      "probeC001",
+      "probeC002",
+      "probeC003",
+      "probeC004",
+      "probeC005"
+    ],
+    "full_named_operation_coverage": true,
+    "warning": "Static string check only; no SDK invoked, no HTTP capture"
+  }
+]

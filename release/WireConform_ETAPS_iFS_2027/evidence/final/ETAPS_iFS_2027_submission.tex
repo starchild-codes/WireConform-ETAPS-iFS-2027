@@ -1,0 +1,148 @@
+\documentclass[runningheads]{llncs}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\emergencystretch=1em
+
+\begin{document}
+\title{From OpenAPI to the Wire: Specification-Grounded Conformance Testing of Generated API Clients}
+\titlerunning{Specification-Grounded Testing of Generated API Clients}
+\author{Anonymous Author(s)}
+\authorrunning{Anonymous Author(s)}
+\institute{Affiliation withheld for review}
+\maketitle
+
+\begin{abstract}
+Generated clients are widely treated as executable projections of OpenAPI contracts, yet the request they place on the wire can differ from the contract's parameter-serialization rules. We present WireConform, a specification-grounded method that generates clients, calls their typed SDK operations, captures HTTP requests locally, and compares paths, query multisets, and headers with an independently checked oracle. Its 117-case OpenAPI~3.1.1 corpus covers seven serialization styles, three parameter locations, three value profiles, and 27 implicit/explicit-default pairs. We evaluate OpenAPI Generator TypeScript Fetch~7.26.0, Orval Fetch~8.42.0, and Hey API Fetch~0.99.0. All 117 OpenAPI Generator cases, 93 Orval cases, and 111 Hey API cases produced eligible observations. Their respective pass counts were 54/117, 32/93, and 58/111. The remaining eligible observations were reproducible wire mismatches; Orval omitted typed header parameters in 24 generated signatures, while Hey API emitted uncompilable source for six valid delimited-object cases. All eligible default pairs were equivalent, showing that default expansion alone did not reveal the prevalent faults. Every one of the 177 wire mismatches was regenerated from its individual specification and reproduced exactly. The results reveal systematic blind spots for label and matrix paths, object-valued parameters, and delimiter encoding, and demonstrate why source generation and compilation are insufficient conformance evidence.
+\keywords{OpenAPI \and code generation \and conformance testing \and parameter serialization \and software quality}
+\end{abstract}
+
+\section{Introduction}
+
+OpenAPI descriptions are routinely used to generate client SDKs. A generated method may type-check and execute while still constructing a request that violates the contract. Under query style \texttt{form} with \texttt{explode=true}, for example, an object \texttt{\{a:red,b:blue\}} is represented as \texttt{a=red\&b=blue}; nesting it under the parameter name is a different request~\cite{oas}. Such discrepancies can remain hidden when servers accept several encodings.
+
+Parameter serialization is a useful conformance target because its inputs are small, the expected wire representation is defined, and the emitted request is directly observable. Existing OpenAPI testing work primarily derives tests for running services~\cite{quickrest,restest,resttestgen,corradini}. We instead test the client as the system under test: the outcome is the exact path, query, or header emitted after invoking a generated SDK operation.
+
+We contribute (1) a 117-case, explicitly bounded OpenAPI~3.1.1 benchmark and dual-implementation oracle; (2) an execution protocol that distinguishes serialization failures from unsupported signatures and generated-source failures; (3) a three-generator evaluation using genuine generated SDK calls and captured requests; and (4) individual-specification reproduction of every mismatch. The study also tests a metamorphic relation between omitted serialization defaults and the same defaults written explicitly.
+
+\section{Semantics and Research Questions}
+
+We model one parameter as $p=(\ell,s,e,t,n)$, where $\ell$ is its location, $s$ its style, $e$ its \texttt{explode} value, $t$ its value type, and $n$ its name. Values are nonempty RFC~3986-unreserved ASCII tokens, arrays of such tokens, or flat objects with token-valued fields. Each operation has exactly one tested parameter. This restriction isolates serialization from nulls, nesting, name collisions, authentication, and server normalization.
+
+The corpus includes query styles \texttt{form}, \texttt{spaceDelimited}, \texttt{pipeDelimited}, and \texttt{deepObject}; path styles \texttt{simple}, \texttt{label}, and \texttt{matrix}; and header style \texttt{simple}. It excludes combinations for which the specification does not define behavior, nested \texttt{deepObject}, cookies, and \texttt{allowReserved=true}. Query parameters default to \texttt{form}, path and header parameters to \texttt{simple}; \texttt{explode} defaults to true only for \texttt{form}~\cite{oas}.
+
+Let $\sigma(p,v)$ be the expected wire representation. For generator configuration $G$, invoking the generated operation yields $W(G,p,v)=(P,Q,H)$: request path $P$, a multiplicity-preserving but order-insensitive multiset $Q$ of decoded query pairs, and relevant case-insensitive headers $H$. Raw targets are retained for encoding review because decoding can hide whether structural delimiters were percent-encoded. A case passes only when all applicable components and required encoding agree.
+
+For a declaration $p$ omitting defined serialization defaults, let $T(p)$ add those defaults without changing anything else. Their effective semantics imply
+\begin{equation}
+\sigma(p,v)=\sigma(T(p),v). \tag{MR-D}
+\end{equation}
+We ask: \textbf{RQ1} What conformance and support are observed by location, style, and value type? \textbf{RQ2} Do implicit and explicit defaults yield equivalent requests? \textbf{RQ3} Which discrepancies reproduce from individual specifications, and what failure families characterize them?
+
+\section{Method}
+
+\subsection{Corpus and oracle validation}
+
+A deterministic builder creates one self-contained OpenAPI~3.1.1 document per case. Three value profiles exercise multi-element words, numeric values, and singleton values. The resulting 117 cases contain 39 query, 54 path, and 24 header cases, including 27 MR-D pairs. Expected representations follow the Parameter Object and style examples in OpenAPI~3.1.1~\cite{oas}. This patch version matters because it corrects non-exploded label examples that conflicted with RFC~6570 in version~3.1.0.
+
+We used four checks before evaluating generators. First, 33 hand-transcribed standards examples pass fixed golden tests. Second, an independently engineered JavaScript implementation agrees with the Python oracle for all 117 cases. Third, an independent structural audit finds no invalid style/type combination, duplicate operation signature, or malformed default pair. Fourth, seven injected-fault operators test the scorer without contributing any generator observations: the corpus detects 21/25 applicable instances; four singleton arrays inherently conceal delimiter faults. A 14-case pilot selected before external observations covers all seven modeled fault classes. In total, 60 automated tests pass. Redocly validates the merged document without errors (documentation warnings are retained in the artifact).
+
+\subsection{Generation, invocation, and capture}
+
+To make generation practical, we also construct a single 117-operation document and verify operation-level equivalence with every individual document. We invoke pinned tools: OpenAPI Generator CLI~2.41.0 with generator JAR~7.26.0 and target \texttt{typescript-fetch}; Orval~8.42.0 with its Fetch client; and \texttt{@hey-api/openapi-ts}~0.99.0 with \texttt{@hey-api/client-fetch}~0.13.1. Node.js~24.17.0 and TypeScript~6.0.3 are used on Windows~11.
+
+The adapter imports each generated SDK, supplies the typed parameter value to the generated operation, and points the client's ordinary transport at a local capture server. It neither constructs requests nor serializes parameters. Tool-specific source audits record the called symbol, argument path, generated-source hash, and adapter hash. For Orval, the generated Fetch function exposes no typed header parameter; injecting \texttt{RequestInit.headers} would bypass the feature under test, so those 24 cases are classified as unsupported generated signatures. Hey API's generated source fails TypeScript compilation for the six object-valued \texttt{spaceDelimited}/\texttt{pipeDelimited} cases, which are valid with \texttt{explode=false}; those are compilation failures, not wire mismatches.
+
+The capture server assigns each invocation a unique path prefix and records its raw request target and headers. A wire observation is eligible only when generation succeeded, the audited generated method was invoked, its process succeeded, and exactly one request was captured. Mismatches are not attributed from the merged build alone: each is regenerated from the original one-operation document and rerun through a separate single-case adapter. We require exact agreement between bundled and individual raw targets or tested headers.
+
+\subsection{Analysis}
+
+We report support coverage $N_{\mathrm{eligible}}/117$ separately from conditional conformance $N_{\mathrm{pass}}/N_{\mathrm{eligible}}$. Wilson intervals are descriptive summaries of this finite corpus, not population inferences. Generation, compilation, unsupported-signature, capture, and serialization outcomes remain distinct. The benchmark was fixed before real generator observations; synthetic fixtures are excluded from all generator counts.
+
+\section{Results}
+
+\subsection{RQ1: support and conformance}
+
+Table~\ref{tab:main} reports complete counts. OpenAPI Generator generated and executed every operation but passed 54/117. Orval generated all operations, yet its typed API omitted all 24 header parameters; among 93 eligible requests, 32 passed. Hey API had six generated-source compilation failures and passed 58/111 eligible requests. Thus generation success alone substantially overstates usable and conforming coverage.
+
+\begin{table}[t]
+\caption{Finite-corpus results. CI is the descriptive 95\% Wilson interval for pass/eligible.}
+\label{tab:main}
+\centering\small
+\begin{tabular}{@{}lrrrrl@{}}
+\toprule
+Tool & Built & Elig. & Pass & Fail & Rate (95\% CI)\\ \midrule
+OpenAPI Generator &117&117&54&63&.462 [.374,.552]\\
+Orval &117&93&32&61&.344 [.255,.445]\\
+Hey API &117&111&58&53&.523 [.430,.613]\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Failures were systematic rather than isolated (Table~\ref{tab:families}). All three tools failed all 15 label-path and all 15 matrix-path cases. OpenAPI Generator failed every flat-object case except \texttt{deepObject}; its 63 failures comprise label (15), matrix (15), and six object families totaling 33. Orval also failed simple-path and form-query objects, all three \texttt{deepObject} cases because brackets were left unencoded, and multi-element delimited arrays. Hey API correctly handled all nine form-query objects, but failed multi-element header arrays, all header objects, three simple-path objects, all \texttt{deepObject}, and multi-element pipe arrays. Singleton values explain why some otherwise faulty delimiter families contain passes.
+
+\begin{table}[t]
+\caption{Confirmed wire mismatches by feature family; each entry is fail/eligible.}
+\label{tab:families}
+\centering\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Family & OpenAPI Gen. & Orval & Hey API\\ \midrule
+Path label (all values) &15/15&15/15&15/15\\
+Path matrix (all values)&15/15&15/15&15/15\\
+Path simple, object&9/9&9/9&3/9\\
+Query form, object&9/9&9/9&0/9\\
+Query deepObject, object&0/3&3/3&3/3\\
+Query pipe, array&0/3&2/3&2/3\\
+Query space, array&0/3&2/3&0/3\\
+Header simple, array/object&9/18&--&15/18\\
+Delimited query, object&6/6&6/6&--\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Representative captures show distinct causes. For exploded form object case \texttt{c007}, the expected query is \texttt{a=red\&b=blue}; OpenAPI Generator emits deep-object-shaped keys, Orval stringifies the object, and Hey API passes. For exploded label object \texttt{c021}, the expected path segment is \texttt{.a=red.b=blue}; OpenAPI Generator and Orval contain \texttt{[object Object]}, while Hey API emits a comma-flattened sequence. For header object \texttt{c034}, OpenAPI Generator stringifies the object, Hey API sends JSON-like text, and Orval exposes no typed argument. For pipe array \texttt{c037}, the structural pipe must be encoded when \texttt{allowReserved=false}~\cite{oas}; OpenAPI Generator does so, Orval uses a comma, and Hey API leaves a literal pipe.
+
+\subsection{RQ2: default equivalence}
+
+Every pair whose two members were eligible satisfied MR-D: 27/27 for OpenAPI Generator, 18/18 for Orval, and 27/27 for Hey API. Orval's other nine pairs were header cases and therefore ineligible. This is a useful negative result: the tools treated omitted and explicit defaults consistently, but often serialized both variants incorrectly. Absolute specification oracles are therefore necessary; metamorphic consistency cannot establish correctness by itself. The Orval release tested already contains the fix for its earlier default-explode issue~\cite{orvalissue}, consistent with this result.
+
+\subsection{RQ3: independent reproduction and classification}
+
+All 177 confirmed mismatches---63 OpenAPI Generator, 61 Orval, and 53 Hey API---were reproduced from clean, individual specifications. In every case the raw request target or tested header exactly matched its bundled counterpart. The six Hey API compile failures also recur in isolated generation. This removes merged-specification interaction as an explanation for the reported outcomes.
+
+The observations cluster into four mechanisms: unsupported style syntax (especially label and matrix); generic JavaScript coercion of objects to \texttt{[object Object]}; style-insensitive flattening or JSON-like serialization; and incorrect delimiter percent-encoding. Related issue reports predate parts of these classes: OpenAPI Generator issue~22252 documents exploded form-object nesting~\cite{genissue}; Hey API issue~393 requested query-style support~\cite{heyissue}; and Orval issue~3231 noted that its Fetch path ignored styles beyond a default-explode fix~\cite{orvalissue}. We therefore claim current-version, cross-feature reproduction and measurement, not novelty for every underlying defect.
+
+\section{Threats to Validity}
+
+\textbf{Construct validity.} The oracle implements a deliberately restricted fragment. Its agreement with fixed standards examples and a separate implementation reduces, but does not eliminate, shared interpretation error. Raw-target review avoids accepting unencoded structural delimiters after percent-decoding. Server acceptance is intentionally irrelevant: the construct is contract conformance.
+
+\textbf{Internal validity.} Adapters could accidentally serialize inputs. Source audits show that they call generated operations and only configure transport/base URL. All mismatches reproduce through a second per-case path. We classify missing signatures and compiler failures separately rather than forcing requests through escape hatches. Tool versions, hashes, logs, captures, and case-level results are retained.
+
+\textbf{External validity.} Results apply to the named versions, Fetch targets, configuration, runtime, and 117-case domain. They do not characterize other languages, templates, browser behavior, nested or reserved values, cookies, multiple interacting parameters, or deployment prevalence. A finite corpus pass fraction is not an ecosystem-wide reliability estimate. Conversely, the use of simple values may hide further defects; singleton arrays already mask four injected faults.
+
+\section{Related Work}
+
+QuickREST derives property-based tests from OpenAPI and checks running services~\cite{quickrest}. RESTest and RestTestGen generate nominal and error scenarios for REST APIs~\cite{restest,resttestgen}, while Corradini et al. compare black-box REST testing tools empirically~\cite{corradini}. Those approaches establish API descriptions as test-generation substrates. WireConform changes the subject and oracle: it tests generated client request construction and judges serialization before application behavior. Public generator issues provide important prior defect evidence~\cite{heyissue,orvalissue,genissue}; our protocol adds a fixed cross-generator corpus, exact wire capture, explicit exclusions, and clean-case reproduction.
+
+\section{Conclusion}
+
+Across three current TypeScript Fetch generators, only 144 of 321 eligible requests matched the restricted OpenAPI~3.1.1 oracle; 177 mismatched, 24 more lacked typed header parameters, and six failed compilation. All eligible implicit/explicit-default pairs were internally consistent, so metamorphic testing alone would have missed the dominant defects. Exact per-case reproduction and separation of support from correctness turn these observations into auditable findings rather than inferred source-code concerns. Generated clients should be tested at the wire boundary, with unsupported and failed cases reported alongside pass rates.
+
+\section*{Data Availability Statement}
+The submission artifact contains the complete deterministic corpus, oracle and independent reference, pinned dependency lockfile, generated SDKs, adapter audits, raw captures, compilation and execution logs, case-level CSV/JSON results, individual mismatch reproductions, and commands for validation and rerun. The artifact accompanying this manuscript has SHA-256 manifest coverage and contains no synthetic observation in generator statistics. A public archival URL cannot be supplied during this local preparation stage and must be inserted if required by the submission system.
+
+\begin{thebibliography}{9}
+\bibitem{oas} OpenAPI Initiative: OpenAPI Specification v3.1.1 (2024). \url{https://spec.openapis.org/oas/v3.1.1.html}
+\bibitem{quickrest} Karlsson, S., \v{C}au\v{s}evi\'c, A., Sundmark, D.: QuickREST: Property-based test generation of OpenAPI-described RESTful APIs. In: ICST (2020). \url{https://doi.org/10.1109/ICST46399.2020.00051}
+\bibitem{restest} Martin-Lopez, A., Segura, S., Ruiz-Cort\'es, A.: RESTest: Automated black-box testing of RESTful web APIs. In: ISSTA (2021). \url{https://doi.org/10.1145/3460319.3469082}
+\bibitem{resttestgen} Corradini, D., et al.: Automated black-box testing of nominal and error scenarios in RESTful APIs. Softw. Test. Verif. Reliab. (2022). \url{https://doi.org/10.1002/stvr.1808}
+\bibitem{corradini} Corradini, D., Zampieri, A., Pasqua, M., Ceccato, M.: Empirical comparison of black-box test case generation tools for RESTful APIs. In: SCAM (2021). \url{https://doi.org/10.1109/SCAM52516.2021.00032}
+\bibitem{heyissue} Hey API: Query parameter serialization styles, issue 393 (2024). \url{https://github.com/hey-api/hey-api/issues/393}
+\bibitem{orvalissue} Orval: Fetch client does not respect OpenAPI default explode, issue 3231 (2026). \url{https://github.com/orval-labs/orval/issues/3231}
+\bibitem{genissue} OpenAPI Generator: Incorrect arbitrary query parameters via form/explode, issue 22252 (2025). \url{https://github.com/OpenAPITools/openapi-generator/issues/22252}
+\end{thebibliography}
+\end{document}

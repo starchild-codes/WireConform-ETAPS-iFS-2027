@@ -1,0 +1,1 @@
+export default {wireconform: {input: {target: "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\outputs\\corpus\\c116.json"}, output: {target: "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c116\\generated.ts", client: "fetch", mock: false, baseUrl: "http://127.0.0.1:8765"}}};

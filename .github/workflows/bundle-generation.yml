@@ -1,0 +1,41 @@
+name: OpenAPI 117-operation SDK generation and source audit
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'runner/build_bundle.py'
+      - 'runner/generate_bundle_clients.py'
+      - 'runner/generate_bundle_online.sh'
+      - 'outputs/corpus/**'
+      - '.github/workflows/bundle-generation.yml'
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - run: python -m pip install pytest
+      - run: python -m pytest -q tests
+      - run: node validation/independent_reference.mjs outputs/corpus/manifest.json validation/reference_agreement.json
+      - run: bash runner/generate_bundle_online.sh
+      - name: Upload source, execution records, and version data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wireconform-generation-117
+          path: |
+            experiments/bundle/
+            package-lock.json
+            validation/reference_agreement.json
+            outputs/bundle/
+          retention-days: 30

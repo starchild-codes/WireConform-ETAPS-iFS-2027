@@ -1,0 +1,15 @@
+{
+  "generator": "orval",
+  "audit_status": "APPROVED_FOR_EXECUTION",
+  "adapter_file": "runner/adapters/bundle_probe.mts",
+  "adapter_sha256": "06ebb99f695e4bed2235a203c72e9f30d62a891095a76cfbd37ec282acd40410",
+  "bundle_sha256": "9a0da3e9d90df88ce0f0b21f95456fd04c8de58ee8761484270419f5503b1775",
+  "generated_source_provenance": "experiments/bundle/orval/bundle_generation.json",
+  "verified_operations": {
+    "query": "probeC003: generated/client.ts:317-347 accepts ProbeC003Params and generated getProbeC003Url serializes via URLSearchParams; adapter supplies only {item:value}.",
+    "path": "probeC016: generated/client.ts:903-932 accepts typed item and generated getProbeC016Url interpolates it; adapter supplies only value.",
+    "header": "UNSUPPORTED: probeC034 at generated/client.ts:1653-1676 exposes only RequestInit and omits the OpenAPI header parameter. Passing RequestInit.headers would bypass generated parameter serialization, so runner records UNSUPPORTED_GENERATED_SIGNATURE."
+  },
+  "compile_check": "PASS: TypeScript 6.0.3 --noEmit over generated/client.ts; evidence/stage_logs/orval_compile.log",
+  "reviewer_notes": "Query/path calls are admissible generated-operation invocations. All 24 header cases are source-audited unsupported and excluded from wire conformance; the adapter deliberately refuses a RequestInit.headers workaround."
+}

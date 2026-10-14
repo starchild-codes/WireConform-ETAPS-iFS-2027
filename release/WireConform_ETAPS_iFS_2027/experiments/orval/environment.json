@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": {
+    "exit": 0,
+    "stdout": "v24.17.0\n",
+    "stderr": "",
+    "elapsed_seconds": 0.14
+  },
+  "npm": {
+    "exit": 0,
+    "stdout": "11.13.0\n",
+    "stderr": "",
+    "elapsed_seconds": 1.16
+  },
+  "orval": {
+    "exit": 0,
+    "stdout": "8.42.0\n",
+    "stderr": "",
+    "elapsed_seconds": 2.66
+  }
+}

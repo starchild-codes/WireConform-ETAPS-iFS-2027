@@ -1,0 +1,3053 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "WireConform merged benchmark",
+    "version": "0.4.0"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8765"
+    }
+  ],
+  "paths": {
+    "/cases/c001": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC001"
+      }
+    },
+    "/cases/c002": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC002"
+      }
+    },
+    "/cases/c003": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC003"
+      }
+    },
+    "/cases/c004": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC004"
+      }
+    },
+    "/cases/c005": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC005"
+      }
+    },
+    "/cases/c006": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC006"
+      }
+    },
+    "/cases/c007": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC007"
+      }
+    },
+    "/cases/c008": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC008"
+      }
+    },
+    "/cases/c009/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC009"
+      }
+    },
+    "/cases/c010/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC010"
+      }
+    },
+    "/cases/c011/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC011"
+      }
+    },
+    "/cases/c012/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC012"
+      }
+    },
+    "/cases/c013/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC013"
+      }
+    },
+    "/cases/c014/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC014"
+      }
+    },
+    "/cases/c015/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC015"
+      }
+    },
+    "/cases/c016/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC016"
+      }
+    },
+    "/cases/c017/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC017"
+      }
+    },
+    "/cases/c018/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC018"
+      }
+    },
+    "/cases/c019/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC019"
+      }
+    },
+    "/cases/c020/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC020"
+      }
+    },
+    "/cases/c021/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC021"
+      }
+    },
+    "/cases/c022/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC022"
+      }
+    },
+    "/cases/c023/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC023"
+      }
+    },
+    "/cases/c024/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC024"
+      }
+    },
+    "/cases/c025/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC025"
+      }
+    },
+    "/cases/c026/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC026"
+      }
+    },
+    "/cases/c027": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC027"
+      }
+    },
+    "/cases/c028": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC028"
+      }
+    },
+    "/cases/c029": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC029"
+      }
+    },
+    "/cases/c030": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC030"
+      }
+    },
+    "/cases/c031": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC031"
+      }
+    },
+    "/cases/c032": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC032"
+      }
+    },
+    "/cases/c033": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC033"
+      }
+    },
+    "/cases/c034": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC034"
+      }
+    },
+    "/cases/c035": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "spaceDelimited",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC035"
+      }
+    },
+    "/cases/c036": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "spaceDelimited",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC036"
+      }
+    },
+    "/cases/c037": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "pipeDelimited",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC037"
+      }
+    },
+    "/cases/c038": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "pipeDelimited",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC038"
+      }
+    },
+    "/cases/c039": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "deepObject",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                },
+                "b": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC039"
+      }
+    },
+    "/cases/c040": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC040"
+      }
+    },
+    "/cases/c041": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC041"
+      }
+    },
+    "/cases/c042": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC042"
+      }
+    },
+    "/cases/c043": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC043"
+      }
+    },
+    "/cases/c044": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC044"
+      }
+    },
+    "/cases/c045": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC045"
+      }
+    },
+    "/cases/c046": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC046"
+      }
+    },
+    "/cases/c047": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC047"
+      }
+    },
+    "/cases/c048/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC048"
+      }
+    },
+    "/cases/c049/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC049"
+      }
+    },
+    "/cases/c050/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC050"
+      }
+    },
+    "/cases/c051/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC051"
+      }
+    },
+    "/cases/c052/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC052"
+      }
+    },
+    "/cases/c053/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC053"
+      }
+    },
+    "/cases/c054/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC054"
+      }
+    },
+    "/cases/c055/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC055"
+      }
+    },
+    "/cases/c056/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC056"
+      }
+    },
+    "/cases/c057/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC057"
+      }
+    },
+    "/cases/c058/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC058"
+      }
+    },
+    "/cases/c059/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC059"
+      }
+    },
+    "/cases/c060/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC060"
+      }
+    },
+    "/cases/c061/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC061"
+      }
+    },
+    "/cases/c062/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC062"
+      }
+    },
+    "/cases/c063/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC063"
+      }
+    },
+    "/cases/c064/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC064"
+      }
+    },
+    "/cases/c065/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC065"
+      }
+    },
+    "/cases/c066": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC066"
+      }
+    },
+    "/cases/c067": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC067"
+      }
+    },
+    "/cases/c068": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC068"
+      }
+    },
+    "/cases/c069": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC069"
+      }
+    },
+    "/cases/c070": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC070"
+      }
+    },
+    "/cases/c071": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC071"
+      }
+    },
+    "/cases/c072": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC072"
+      }
+    },
+    "/cases/c073": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC073"
+      }
+    },
+    "/cases/c074": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "spaceDelimited",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC074"
+      }
+    },
+    "/cases/c075": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "spaceDelimited",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC075"
+      }
+    },
+    "/cases/c076": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "pipeDelimited",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC076"
+      }
+    },
+    "/cases/c077": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "pipeDelimited",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC077"
+      }
+    },
+    "/cases/c078": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "deepObject",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC078"
+      }
+    },
+    "/cases/c079": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC079"
+      }
+    },
+    "/cases/c080": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC080"
+      }
+    },
+    "/cases/c081": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC081"
+      }
+    },
+    "/cases/c082": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC082"
+      }
+    },
+    "/cases/c083": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC083"
+      }
+    },
+    "/cases/c084": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC084"
+      }
+    },
+    "/cases/c085": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC085"
+      }
+    },
+    "/cases/c086": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC086"
+      }
+    },
+    "/cases/c087/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC087"
+      }
+    },
+    "/cases/c088/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC088"
+      }
+    },
+    "/cases/c089/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC089"
+      }
+    },
+    "/cases/c090/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC090"
+      }
+    },
+    "/cases/c091/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC091"
+      }
+    },
+    "/cases/c092/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC092"
+      }
+    },
+    "/cases/c093/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC093"
+      }
+    },
+    "/cases/c094/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC094"
+      }
+    },
+    "/cases/c095/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC095"
+      }
+    },
+    "/cases/c096/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC096"
+      }
+    },
+    "/cases/c097/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC097"
+      }
+    },
+    "/cases/c098/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC098"
+      }
+    },
+    "/cases/c099/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "label",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC099"
+      }
+    },
+    "/cases/c100/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC100"
+      }
+    },
+    "/cases/c101/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC101"
+      }
+    },
+    "/cases/c102/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC102"
+      }
+    },
+    "/cases/c103/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC103"
+      }
+    },
+    "/cases/c104/p/{item}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC104"
+      }
+    },
+    "/cases/c105": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC105"
+      }
+    },
+    "/cases/c106": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC106"
+      }
+    },
+    "/cases/c107": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC107"
+      }
+    },
+    "/cases/c108": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC108"
+      }
+    },
+    "/cases/c109": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC109"
+      }
+    },
+    "/cases/c110": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC110"
+      }
+    },
+    "/cases/c111": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC111"
+      }
+    },
+    "/cases/c112": {
+      "get": {
+        "parameters": [
+          {
+            "name": "X-Test-Param",
+            "in": "header",
+            "required": false,
+            "style": "simple",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC112"
+      }
+    },
+    "/cases/c113": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "spaceDelimited",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC113"
+      }
+    },
+    "/cases/c114": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "spaceDelimited",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC114"
+      }
+    },
+    "/cases/c115": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "pipeDelimited",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC115"
+      }
+    },
+    "/cases/c116": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "pipeDelimited",
+            "explode": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC116"
+      }
+    },
+    "/cases/c117": {
+      "get": {
+        "parameters": [
+          {
+            "name": "item",
+            "in": "query",
+            "required": false,
+            "style": "deepObject",
+            "explode": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "a": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        },
+        "operationId": "probeC117"
+      }
+    }
+  }
+}

@@ -1,0 +1,1532 @@
+{
+  "status": "VALIDATED_ANALYSIS_OF_SUPPLIED_LEDGERS_NOT_PROOF_OF_REAL_EXPERIMENTS",
+  "overall": {
+    "total": 117,
+    "eligible": 11,
+    "pass": 4,
+    "fail": 7,
+    "coverage_fraction": 0.094017,
+    "conditional_conformance_fraction": 0.363636,
+    "descriptive_wilson_95": [
+      0.151662,
+      0.646203
+    ],
+    "all_status_counts": {
+      "ENCODING_REVIEW": 2,
+      "FAIL": 7,
+      "NOT_RUN": 103,
+      "PASS": 4,
+      "UNSUPPORTED_GENERATED_SIGNATURE": 1
+    }
+  },
+  "by_family": [
+    {
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "total": 9,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 9
+      }
+    },
+    {
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "total": 9,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 8,
+        "UNSUPPORTED_GENERATED_SIGNATURE": 1
+      }
+    },
+    {
+      "location": "header",
+      "style": "simple",
+      "kind": "scalar",
+      "total": 6,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 6
+      }
+    },
+    {
+      "location": "path",
+      "style": "label",
+      "kind": "array",
+      "total": 6,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 6
+      }
+    },
+    {
+      "location": "path",
+      "style": "label",
+      "kind": "object",
+      "total": 6,
+      "eligible": 1,
+      "pass": 0,
+      "fail": 1,
+      "coverage_fraction": 0.166667,
+      "conditional_conformance_fraction": 0.0,
+      "descriptive_wilson_95": [
+        0,
+        0.793457
+      ],
+      "all_status_counts": {
+        "FAIL": 1,
+        "NOT_RUN": 5
+      }
+    },
+    {
+      "location": "path",
+      "style": "label",
+      "kind": "scalar",
+      "total": 3,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 3
+      }
+    },
+    {
+      "location": "path",
+      "style": "matrix",
+      "kind": "array",
+      "total": 6,
+      "eligible": 1,
+      "pass": 0,
+      "fail": 1,
+      "coverage_fraction": 0.166667,
+      "conditional_conformance_fraction": 0.0,
+      "descriptive_wilson_95": [
+        0,
+        0.793457
+      ],
+      "all_status_counts": {
+        "FAIL": 1,
+        "NOT_RUN": 5
+      }
+    },
+    {
+      "location": "path",
+      "style": "matrix",
+      "kind": "object",
+      "total": 6,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 6
+      }
+    },
+    {
+      "location": "path",
+      "style": "matrix",
+      "kind": "scalar",
+      "total": 3,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 3
+      }
+    },
+    {
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "total": 9,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 9
+      }
+    },
+    {
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "total": 9,
+      "eligible": 1,
+      "pass": 0,
+      "fail": 1,
+      "coverage_fraction": 0.111111,
+      "conditional_conformance_fraction": 0.0,
+      "descriptive_wilson_95": [
+        0,
+        0.793457
+      ],
+      "all_status_counts": {
+        "FAIL": 1,
+        "NOT_RUN": 8
+      }
+    },
+    {
+      "location": "path",
+      "style": "simple",
+      "kind": "scalar",
+      "total": 6,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 6
+      }
+    },
+    {
+      "location": "query",
+      "style": "deepObject",
+      "kind": "object",
+      "total": 3,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "ENCODING_REVIEW": 1,
+        "NOT_RUN": 2
+      }
+    },
+    {
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "total": 9,
+      "eligible": 2,
+      "pass": 2,
+      "fail": 0,
+      "coverage_fraction": 0.222222,
+      "conditional_conformance_fraction": 1.0,
+      "descriptive_wilson_95": [
+        0.342372,
+        1
+      ],
+      "all_status_counts": {
+        "ENCODING_REVIEW": 1,
+        "NOT_RUN": 6,
+        "PASS": 2
+      }
+    },
+    {
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "total": 9,
+      "eligible": 2,
+      "pass": 0,
+      "fail": 2,
+      "coverage_fraction": 0.222222,
+      "conditional_conformance_fraction": 0.0,
+      "descriptive_wilson_95": [
+        0,
+        0.657628
+      ],
+      "all_status_counts": {
+        "FAIL": 2,
+        "NOT_RUN": 7
+      }
+    },
+    {
+      "location": "query",
+      "style": "form",
+      "kind": "scalar",
+      "total": 6,
+      "eligible": 2,
+      "pass": 2,
+      "fail": 0,
+      "coverage_fraction": 0.333333,
+      "conditional_conformance_fraction": 1.0,
+      "descriptive_wilson_95": [
+        0.342372,
+        1
+      ],
+      "all_status_counts": {
+        "NOT_RUN": 4,
+        "PASS": 2
+      }
+    },
+    {
+      "location": "query",
+      "style": "pipeDelimited",
+      "kind": "array",
+      "total": 3,
+      "eligible": 1,
+      "pass": 0,
+      "fail": 1,
+      "coverage_fraction": 0.333333,
+      "conditional_conformance_fraction": 0.0,
+      "descriptive_wilson_95": [
+        0,
+        0.793457
+      ],
+      "all_status_counts": {
+        "FAIL": 1,
+        "NOT_RUN": 2
+      }
+    },
+    {
+      "location": "query",
+      "style": "pipeDelimited",
+      "kind": "object",
+      "total": 3,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 3
+      }
+    },
+    {
+      "location": "query",
+      "style": "spaceDelimited",
+      "kind": "array",
+      "total": 3,
+      "eligible": 1,
+      "pass": 0,
+      "fail": 1,
+      "coverage_fraction": 0.333333,
+      "conditional_conformance_fraction": 0.0,
+      "descriptive_wilson_95": [
+        0,
+        0.793457
+      ],
+      "all_status_counts": {
+        "FAIL": 1,
+        "NOT_RUN": 2
+      }
+    },
+    {
+      "location": "query",
+      "style": "spaceDelimited",
+      "kind": "object",
+      "total": 3,
+      "eligible": 0,
+      "pass": 0,
+      "fail": 0,
+      "coverage_fraction": 0.0,
+      "conditional_conformance_fraction": null,
+      "descriptive_wilson_95": null,
+      "all_status_counts": {
+        "NOT_RUN": 3
+      }
+    }
+  ],
+  "rows": [
+    {
+      "case_id": "c001",
+      "location": "query",
+      "style": "form",
+      "kind": "scalar",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c002",
+      "location": "query",
+      "style": "form",
+      "kind": "scalar",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c003",
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "ENCODING_REVIEW"
+    },
+    {
+      "case_id": "c004",
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "PASS"
+    },
+    {
+      "case_id": "c005",
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "PASS"
+    },
+    {
+      "case_id": "c006",
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c007",
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c008",
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c009",
+      "location": "path",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c010",
+      "location": "path",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c011",
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c012",
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c013",
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c014",
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c015",
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c016",
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c017",
+      "location": "path",
+      "style": "label",
+      "kind": "scalar",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c018",
+      "location": "path",
+      "style": "label",
+      "kind": "array",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c019",
+      "location": "path",
+      "style": "label",
+      "kind": "array",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c020",
+      "location": "path",
+      "style": "label",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c021",
+      "location": "path",
+      "style": "label",
+      "kind": "object",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c022",
+      "location": "path",
+      "style": "matrix",
+      "kind": "scalar",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c023",
+      "location": "path",
+      "style": "matrix",
+      "kind": "array",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c024",
+      "location": "path",
+      "style": "matrix",
+      "kind": "array",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c025",
+      "location": "path",
+      "style": "matrix",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c026",
+      "location": "path",
+      "style": "matrix",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c027",
+      "location": "header",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c028",
+      "location": "header",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c029",
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c030",
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c031",
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c032",
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c033",
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c034",
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "UNSUPPORTED_GENERATED_SIGNATURE",
+      "status": "UNSUPPORTED_GENERATED_SIGNATURE"
+    },
+    {
+      "case_id": "c035",
+      "location": "query",
+      "style": "spaceDelimited",
+      "kind": "array",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c036",
+      "location": "query",
+      "style": "spaceDelimited",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c037",
+      "location": "query",
+      "style": "pipeDelimited",
+      "kind": "array",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c038",
+      "location": "query",
+      "style": "pipeDelimited",
+      "kind": "object",
+      "profile": "words",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c039",
+      "location": "query",
+      "style": "deepObject",
+      "kind": "object",
+      "profile": "words",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "ENCODING_REVIEW"
+    },
+    {
+      "case_id": "c040",
+      "location": "query",
+      "style": "form",
+      "kind": "scalar",
+      "profile": "numeric",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "PASS"
+    },
+    {
+      "case_id": "c041",
+      "location": "query",
+      "style": "form",
+      "kind": "scalar",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c042",
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c043",
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c044",
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c045",
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c046",
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c047",
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c048",
+      "location": "path",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c049",
+      "location": "path",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c050",
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c051",
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c052",
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c053",
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c054",
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c055",
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c056",
+      "location": "path",
+      "style": "label",
+      "kind": "scalar",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c057",
+      "location": "path",
+      "style": "label",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c058",
+      "location": "path",
+      "style": "label",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c059",
+      "location": "path",
+      "style": "label",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c060",
+      "location": "path",
+      "style": "label",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c061",
+      "location": "path",
+      "style": "matrix",
+      "kind": "scalar",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c062",
+      "location": "path",
+      "style": "matrix",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c063",
+      "location": "path",
+      "style": "matrix",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c064",
+      "location": "path",
+      "style": "matrix",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c065",
+      "location": "path",
+      "style": "matrix",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c066",
+      "location": "header",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c067",
+      "location": "header",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c068",
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c069",
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c070",
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c071",
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c072",
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c073",
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c074",
+      "location": "query",
+      "style": "spaceDelimited",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c075",
+      "location": "query",
+      "style": "spaceDelimited",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c076",
+      "location": "query",
+      "style": "pipeDelimited",
+      "kind": "array",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c077",
+      "location": "query",
+      "style": "pipeDelimited",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c078",
+      "location": "query",
+      "style": "deepObject",
+      "kind": "object",
+      "profile": "numeric",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c079",
+      "location": "query",
+      "style": "form",
+      "kind": "scalar",
+      "profile": "singleton",
+      "generation": "GENERATED",
+      "execution": "CAPTURED_ONE",
+      "status": "PASS"
+    },
+    {
+      "case_id": "c080",
+      "location": "query",
+      "style": "form",
+      "kind": "scalar",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c081",
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c082",
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c083",
+      "location": "query",
+      "style": "form",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c084",
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c085",
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c086",
+      "location": "query",
+      "style": "form",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c087",
+      "location": "path",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c088",
+      "location": "path",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c089",
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c090",
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c091",
+      "location": "path",
+      "style": "simple",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c092",
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c093",
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c094",
+      "location": "path",
+      "style": "simple",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c095",
+      "location": "path",
+      "style": "label",
+      "kind": "scalar",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c096",
+      "location": "path",
+      "style": "label",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c097",
+      "location": "path",
+      "style": "label",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c098",
+      "location": "path",
+      "style": "label",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c099",
+      "location": "path",
+      "style": "label",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c100",
+      "location": "path",
+      "style": "matrix",
+      "kind": "scalar",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c101",
+      "location": "path",
+      "style": "matrix",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c102",
+      "location": "path",
+      "style": "matrix",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c103",
+      "location": "path",
+      "style": "matrix",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c104",
+      "location": "path",
+      "style": "matrix",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c105",
+      "location": "header",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c106",
+      "location": "header",
+      "style": "simple",
+      "kind": "scalar",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c107",
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c108",
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c109",
+      "location": "header",
+      "style": "simple",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c110",
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c111",
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c112",
+      "location": "header",
+      "style": "simple",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c113",
+      "location": "query",
+      "style": "spaceDelimited",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c114",
+      "location": "query",
+      "style": "spaceDelimited",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c115",
+      "location": "query",
+      "style": "pipeDelimited",
+      "kind": "array",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c116",
+      "location": "query",
+      "style": "pipeDelimited",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c117",
+      "location": "query",
+      "style": "deepObject",
+      "kind": "object",
+      "profile": "singleton",
+      "generation": "UNKNOWN",
+      "execution": "NOT_RUN",
+      "status": "NOT_RUN"
+    }
+  ],
+  "interpretation": "Synthetic controls and executions without a verified generation ledger are excluded. Conditional conformance is among executed, captured, scored cases only; report coverage and all failure classes. Case selection is deterministic, not a random sample of production OpenAPI usage."
+}

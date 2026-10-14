@@ -1,0 +1,18 @@
+# Local runtimes, dependencies, and test caches (reconstruct from lockfiles).
+node_modules/
+.pydeps/
+.venv/
+.tools/
+.pytest_cache/
+.pytest_tmp/
+__pycache__/
+*.py[cod]
+
+# LaTeX intermediates; canonical PDF and TeX are tracked.
+*.aux
+*.log
+*.out
+*.xdv
+
+# Local visual-QA renders are derived from the tracked final PDF.
+evidence/pdf_render/

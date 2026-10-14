@@ -1,0 +1,39 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "WireConform restricted probe",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8765"
+    }
+  ],
+  "paths": {
+    "/cases/c101/p/{item}": {
+      "get": {
+        "operationId": "probe",
+        "parameters": [
+          {
+            "name": "item",
+            "in": "path",
+            "required": true,
+            "style": "matrix",
+            "explode": false,
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Recorded request"
+          }
+        }
+      }
+    }
+  }
+}

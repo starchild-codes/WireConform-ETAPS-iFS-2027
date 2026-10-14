@@ -1,0 +1,692 @@
+{
+  "generators": {
+    "openapi-generator": {
+      "N_defined": 117,
+      "N_generated": 117,
+      "N_invokable": 117,
+      "N_captured": 117,
+      "N_eligible": 117,
+      "N_pass": 54,
+      "N_fail": 63,
+      "N_unsupported": 0,
+      "N_compile_error": 0,
+      "N_review": 0,
+      "support_coverage": 1.0,
+      "conditional_conformance": 0.461538,
+      "descriptive_wilson_95": [
+        0.373868,
+        0.551655
+      ],
+      "all_status_counts": {
+        "CONFIRMED_FAIL": 63,
+        "PASS": 54
+      }
+    },
+    "orval": {
+      "N_defined": 117,
+      "N_generated": 117,
+      "N_invokable": 93,
+      "N_captured": 93,
+      "N_eligible": 93,
+      "N_pass": 32,
+      "N_fail": 61,
+      "N_unsupported": 24,
+      "N_compile_error": 0,
+      "N_review": 0,
+      "support_coverage": 0.794872,
+      "conditional_conformance": 0.344086,
+      "descriptive_wilson_95": [
+        0.255449,
+        0.445093
+      ],
+      "all_status_counts": {
+        "CONFIRMED_FAIL": 61,
+        "PASS": 32,
+        "UNSUPPORTED_GENERATED_SIGNATURE": 24
+      }
+    },
+    "hey-api": {
+      "N_defined": 117,
+      "N_generated": 117,
+      "N_invokable": 111,
+      "N_captured": 111,
+      "N_eligible": 111,
+      "N_pass": 58,
+      "N_fail": 53,
+      "N_unsupported": 0,
+      "N_compile_error": 6,
+      "N_review": 0,
+      "support_coverage": 0.948718,
+      "conditional_conformance": 0.522523,
+      "descriptive_wilson_95": [
+        0.43041,
+        0.613128
+      ],
+      "all_status_counts": {
+        "COMPILE_ERROR_GENERATED_SOURCE": 6,
+        "CONFIRMED_FAIL": 53,
+        "PASS": 58
+      }
+    }
+  },
+  "by_family": {
+    "openapi-generator": [
+      {
+        "location": "header",
+        "style": "simple",
+        "kind": "array",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 9,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "header",
+        "style": "simple",
+        "kind": "object",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 0,
+        "fail": 9,
+        "other": 0
+      },
+      {
+        "location": "header",
+        "style": "simple",
+        "kind": "scalar",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 6,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "label",
+        "kind": "array",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "label",
+        "kind": "object",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "label",
+        "kind": "scalar",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "matrix",
+        "kind": "array",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "matrix",
+        "kind": "object",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "matrix",
+        "kind": "scalar",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "simple",
+        "kind": "array",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 9,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "simple",
+        "kind": "object",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 0,
+        "fail": 9,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "simple",
+        "kind": "scalar",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 6,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "deepObject",
+        "kind": "object",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 3,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "form",
+        "kind": "array",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 9,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "form",
+        "kind": "object",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 0,
+        "fail": 9,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "form",
+        "kind": "scalar",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 6,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "pipeDelimited",
+        "kind": "array",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 3,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "pipeDelimited",
+        "kind": "object",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "spaceDelimited",
+        "kind": "array",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 3,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "spaceDelimited",
+        "kind": "object",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      }
+    ],
+    "orval": [
+      {
+        "location": "header",
+        "style": "simple",
+        "kind": "array",
+        "defined": 9,
+        "eligible": 0,
+        "pass": 0,
+        "fail": 0,
+        "other": 9
+      },
+      {
+        "location": "header",
+        "style": "simple",
+        "kind": "object",
+        "defined": 9,
+        "eligible": 0,
+        "pass": 0,
+        "fail": 0,
+        "other": 9
+      },
+      {
+        "location": "header",
+        "style": "simple",
+        "kind": "scalar",
+        "defined": 6,
+        "eligible": 0,
+        "pass": 0,
+        "fail": 0,
+        "other": 6
+      },
+      {
+        "location": "path",
+        "style": "label",
+        "kind": "array",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "label",
+        "kind": "object",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "label",
+        "kind": "scalar",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "matrix",
+        "kind": "array",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "matrix",
+        "kind": "object",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "matrix",
+        "kind": "scalar",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "simple",
+        "kind": "array",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 9,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "simple",
+        "kind": "object",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 0,
+        "fail": 9,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "simple",
+        "kind": "scalar",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 6,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "deepObject",
+        "kind": "object",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "form",
+        "kind": "array",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 9,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "form",
+        "kind": "object",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 0,
+        "fail": 9,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "form",
+        "kind": "scalar",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 6,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "pipeDelimited",
+        "kind": "array",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 1,
+        "fail": 2,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "pipeDelimited",
+        "kind": "object",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "spaceDelimited",
+        "kind": "array",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 1,
+        "fail": 2,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "spaceDelimited",
+        "kind": "object",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      }
+    ],
+    "hey-api": [
+      {
+        "location": "header",
+        "style": "simple",
+        "kind": "array",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 3,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "header",
+        "style": "simple",
+        "kind": "object",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 0,
+        "fail": 9,
+        "other": 0
+      },
+      {
+        "location": "header",
+        "style": "simple",
+        "kind": "scalar",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 6,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "label",
+        "kind": "array",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "label",
+        "kind": "object",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "label",
+        "kind": "scalar",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "matrix",
+        "kind": "array",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "matrix",
+        "kind": "object",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 0,
+        "fail": 6,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "matrix",
+        "kind": "scalar",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "simple",
+        "kind": "array",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 9,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "simple",
+        "kind": "object",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 6,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "path",
+        "style": "simple",
+        "kind": "scalar",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 6,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "deepObject",
+        "kind": "object",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 0,
+        "fail": 3,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "form",
+        "kind": "array",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 9,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "form",
+        "kind": "object",
+        "defined": 9,
+        "eligible": 9,
+        "pass": 9,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "form",
+        "kind": "scalar",
+        "defined": 6,
+        "eligible": 6,
+        "pass": 6,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "pipeDelimited",
+        "kind": "array",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 1,
+        "fail": 2,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "pipeDelimited",
+        "kind": "object",
+        "defined": 3,
+        "eligible": 0,
+        "pass": 0,
+        "fail": 0,
+        "other": 3
+      },
+      {
+        "location": "query",
+        "style": "spaceDelimited",
+        "kind": "array",
+        "defined": 3,
+        "eligible": 3,
+        "pass": 3,
+        "fail": 0,
+        "other": 0
+      },
+      {
+        "location": "query",
+        "style": "spaceDelimited",
+        "kind": "object",
+        "defined": 3,
+        "eligible": 0,
+        "pass": 0,
+        "fail": 0,
+        "other": 3
+      }
+    ]
+  },
+  "default_pairs": {
+    "openapi-generator": {
+      "EQUAL": 27
+    },
+    "orval": {
+      "EQUAL": 18,
+      "INELIGIBLE": 9
+    },
+    "hey-api": {
+      "EQUAL": 27
+    }
+  }
+}

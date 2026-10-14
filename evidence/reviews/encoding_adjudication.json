@@ -1,0 +1,17 @@
+{
+  "standard": "OpenAPI Specification 3.1.1, Appendix C.2 and Appendix E.5",
+  "policy": "RFC6570 structural comma delimiters are percent-encoded when allowReserved is false. Literal square brackets, vertical bars, and spaces used by deepObject, pipeDelimited, and spaceDelimited MUST be percent-encoded in a URI.",
+  "decisions": {
+    "openapi-generator": {
+      "c003": "PASS", "c011": "PASS", "c012": "PASS", "c013": "PASS",
+      "c042": "PASS", "c050": "PASS", "c051": "PASS", "c052": "PASS"
+    },
+    "orval": {
+      "c003": "PASS", "c039": "FAIL", "c042": "PASS", "c078": "FAIL", "c117": "FAIL"
+    },
+    "hey-api": {
+      "c037": "FAIL", "c039": "FAIL", "c076": "FAIL", "c078": "FAIL", "c117": "FAIL"
+    }
+  },
+  "notes": "These decisions change only ENCODING_REVIEW rows. All inputs and captured requests remain unchanged."
+}

@@ -1,0 +1,169 @@
+{
+  "kind": "SYNTHETIC_MUTATION_CONTROLS_NOT_REAL_CLIENT_MEASUREMENTS",
+  "mutants": [
+    {
+      "mutant": "ignore_form_array_explode",
+      "eligible": 6,
+      "detected": 4,
+      "undetected": 2,
+      "examples": [
+        {
+          "case_id": "c082",
+          "url": "/cases/c082?item=z",
+          "reason": {
+            "case_id": "c082",
+            "pass": true,
+            "path_ok": true,
+            "query_ok": true,
+            "header_ok": true,
+            "query_raw_exact": true,
+            "needs_encoding_review": false,
+            "path_decoded_equivalent": true,
+            "expected_url": "/cases/c082?item=z",
+            "observed_url": "/cases/c082?item=z",
+            "expected_query_pairs": [
+              [
+                "item",
+                "z"
+              ]
+            ],
+            "observed_query_pairs": [
+              [
+                "item",
+                "z"
+              ]
+            ],
+            "expected_headers": {},
+            "observed_parameter_headers": {}
+          }
+        },
+        {
+          "case_id": "c083",
+          "url": "/cases/c083?item=z",
+          "reason": {
+            "case_id": "c083",
+            "pass": true,
+            "path_ok": true,
+            "query_ok": true,
+            "header_ok": true,
+            "query_raw_exact": true,
+            "needs_encoding_review": false,
+            "path_decoded_equivalent": true,
+            "expected_url": "/cases/c083?item=z",
+            "observed_url": "/cases/c083?item=z",
+            "expected_query_pairs": [
+              [
+                "item",
+                "z"
+              ]
+            ],
+            "observed_query_pairs": [
+              [
+                "item",
+                "z"
+              ]
+            ],
+            "expected_headers": {},
+            "observed_parameter_headers": {}
+          }
+        }
+      ]
+    },
+    {
+      "mutant": "omit_default_array_explode",
+      "eligible": 3,
+      "detected": 2,
+      "undetected": 1,
+      "examples": [
+        {
+          "case_id": "c083",
+          "url": "/cases/c083?item=z",
+          "reason": {
+            "case_id": "c083",
+            "pass": true,
+            "path_ok": true,
+            "query_ok": true,
+            "header_ok": true,
+            "query_raw_exact": true,
+            "needs_encoding_review": false,
+            "path_decoded_equivalent": true,
+            "expected_url": "/cases/c083?item=z",
+            "observed_url": "/cases/c083?item=z",
+            "expected_query_pairs": [
+              [
+                "item",
+                "z"
+              ]
+            ],
+            "observed_query_pairs": [
+              [
+                "item",
+                "z"
+              ]
+            ],
+            "expected_headers": {},
+            "observed_parameter_headers": {}
+          }
+        }
+      ]
+    },
+    {
+      "mutant": "ignore_label_object_explode",
+      "eligible": 3,
+      "detected": 3,
+      "undetected": 0,
+      "examples": []
+    },
+    {
+      "mutant": "ignore_matrix_array_explode",
+      "eligible": 3,
+      "detected": 2,
+      "undetected": 1,
+      "examples": [
+        {
+          "case_id": "c102",
+          "url": "/cases/c102/p/;item=z",
+          "reason": {
+            "case_id": "c102",
+            "pass": true,
+            "path_ok": true,
+            "query_ok": true,
+            "header_ok": true,
+            "query_raw_exact": true,
+            "needs_encoding_review": false,
+            "path_decoded_equivalent": true,
+            "expected_url": "/cases/c102/p/;item=z",
+            "observed_url": "/cases/c102/p/;item=z",
+            "expected_query_pairs": [],
+            "observed_query_pairs": [],
+            "expected_headers": {},
+            "observed_parameter_headers": {}
+          }
+        }
+      ]
+    },
+    {
+      "mutant": "discard_last_exploded_pair",
+      "eligible": 4,
+      "detected": 4,
+      "undetected": 0,
+      "examples": []
+    },
+    {
+      "mutant": "header_object_nonexploded",
+      "eligible": 3,
+      "detected": 3,
+      "undetected": 0,
+      "examples": []
+    },
+    {
+      "mutant": "flatten_deep_object",
+      "eligible": 3,
+      "detected": 3,
+      "undetected": 0,
+      "examples": []
+    }
+  ],
+  "total_mutant_cases": 25,
+  "total_detected": 21
+}

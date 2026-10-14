@@ -1,0 +1,809 @@
+{
+  "summary": {
+    "n_defined": 117,
+    "n_observations": 14,
+    "status_counts": {
+      "NOT_RUN": 103,
+      "PASS": 8,
+      "FAIL": 4,
+      "ENCODING_REVIEW": 2
+    },
+    "note": "NOT_RUN, INVALID_MULTIPLE_OBSERVATIONS, and ENCODING_REVIEW are excluded from untriaged conformance pass rates"
+  },
+  "cases": [
+    {
+      "case_id": "c001",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c002",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c003",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c003?item=red,blue",
+      "observed_url": "/cases/c003?item=red,blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "red,blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "red,blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c004",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c004?item=red&item=blue",
+      "observed_url": "/cases/c004?item=red&item=blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "blue"
+        ],
+        [
+          "item",
+          "red"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "blue"
+        ],
+        [
+          "item",
+          "red"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c005",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c005?item=red&item=blue",
+      "observed_url": "/cases/c005?item=red&item=blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "blue"
+        ],
+        [
+          "item",
+          "red"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "blue"
+        ],
+        [
+          "item",
+          "red"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c006",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c007",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c007?a=red&b=blue",
+      "observed_url": "/cases/c007?a=red&b=blue",
+      "expected_query_pairs": [
+        [
+          "a",
+          "red"
+        ],
+        [
+          "b",
+          "blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "a",
+          "red"
+        ],
+        [
+          "b",
+          "blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c008",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c008?a=red&b=blue",
+      "observed_url": "/cases/c008?a=red&b=blue",
+      "expected_query_pairs": [
+        [
+          "a",
+          "red"
+        ],
+        [
+          "b",
+          "blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "a",
+          "red"
+        ],
+        [
+          "b",
+          "blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c009",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c010",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c011",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c012",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c013",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c014",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c015",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c016",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c016/p/a=red,b=blue",
+      "observed_url": "/cases/c016/p/a,red,b,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c017",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c018",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c019",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c020",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c021",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c021/p/.a=red.b=blue",
+      "observed_url": "/cases/c021/p/a,red,b,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c022",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c023",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c024",
+      "pass": false,
+      "path_ok": false,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": false,
+      "expected_url": "/cases/c024/p/;item=red;item=blue",
+      "observed_url": "/cases/c024/p/red,blue",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c025",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c026",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c027",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c028",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c029",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c030",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c031",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c032",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c033",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c034",
+      "pass": false,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": false,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c034",
+      "observed_url": "/cases/c034",
+      "expected_query_pairs": [],
+      "observed_query_pairs": [],
+      "expected_headers": {
+        "X-Test-Param": "a=red,b=blue"
+      },
+      "observed_parameter_headers": {
+        "X-Test-Param": "{\"a\":\"red\",\"b\":\"blue\"}"
+      },
+      "status": "FAIL"
+    },
+    {
+      "case_id": "c035",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c035?item=red%20blue",
+      "observed_url": "/cases/c035?item=red%20blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "red blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "red blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c036",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c037",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": false,
+      "needs_encoding_review": true,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c037?item=red%7Cblue",
+      "observed_url": "/cases/c037?item=red|blue",
+      "expected_query_pairs": [
+        [
+          "item",
+          "red|blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "red|blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "ENCODING_REVIEW"
+    },
+    {
+      "case_id": "c038",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c039",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": false,
+      "needs_encoding_review": true,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c039?item%5Ba%5D=red&item%5Bb%5D=blue",
+      "observed_url": "/cases/c039?item[a]=red&item[b]=blue",
+      "expected_query_pairs": [
+        [
+          "item[a]",
+          "red"
+        ],
+        [
+          "item[b]",
+          "blue"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item[a]",
+          "red"
+        ],
+        [
+          "item[b]",
+          "blue"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "ENCODING_REVIEW"
+    },
+    {
+      "case_id": "c040",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c040?item=7",
+      "observed_url": "/cases/c040?item=7",
+      "expected_query_pairs": [
+        [
+          "item",
+          "7"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "7"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c041",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c042",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c043",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c044",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c045",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c046",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c047",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c048",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c049",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c050",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c051",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c052",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c053",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c054",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c055",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c056",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c057",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c058",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c059",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c060",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c061",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c062",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c063",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c064",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c065",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c066",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c067",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c068",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c069",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c070",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c071",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c072",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c073",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c074",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c075",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c076",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c077",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c078",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c079",
+      "pass": true,
+      "path_ok": true,
+      "query_ok": true,
+      "header_ok": true,
+      "query_raw_exact": true,
+      "needs_encoding_review": false,
+      "path_decoded_equivalent": true,
+      "expected_url": "/cases/c079?item=z",
+      "observed_url": "/cases/c079?item=z",
+      "expected_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "observed_query_pairs": [
+        [
+          "item",
+          "z"
+        ]
+      ],
+      "expected_headers": {},
+      "observed_parameter_headers": {},
+      "status": "PASS"
+    },
+    {
+      "case_id": "c080",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c081",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c082",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c083",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c084",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c085",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c086",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c087",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c088",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c089",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c090",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c091",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c092",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c093",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c094",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c095",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c096",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c097",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c098",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c099",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c100",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c101",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c102",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c103",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c104",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c105",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c106",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c107",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c108",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c109",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c110",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c111",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c112",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c113",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c114",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c115",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c116",
+      "status": "NOT_RUN"
+    },
+    {
+      "case_id": "c117",
+      "status": "NOT_RUN"
+    }
+  ]
+}

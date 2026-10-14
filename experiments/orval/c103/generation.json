@@ -1,0 +1,15 @@
+{
+  "case_id": "c103",
+  "generator": "orval",
+  "sha256": "629097dc10233ead8215a39c4545b8b22d8a3995dcc0e85ef8a966031c3b565f",
+  "command": [
+    "orval",
+    "--config",
+    "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\orval\\c103\\orval.config.mjs"
+  ],
+  "exit": 0,
+  "stdout": "\ud83c\udf7b orval v8.42.0 - A swagger client generator for typescript\nwireconform - \ud83c\udf89 WireConform restricted probe - Your OpenAPI spec has been converted into ready to use orval!\n",
+  "stderr": "",
+  "elapsed_seconds": 1.49,
+  "status": "GENERATED"
+}

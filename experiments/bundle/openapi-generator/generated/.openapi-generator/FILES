@@ -1,0 +1,15 @@
+.openapi-generator-ignore
+apis/DefaultApi.ts
+apis/index.ts
+docs/DefaultApi.md
+docs/ProbeC006ItemParameter.md
+docs/ProbeC007ItemParameter.md
+docs/ProbeC045ItemParameter.md
+docs/ProbeC084ItemParameter.md
+index.ts
+models/ProbeC006ItemParameter.ts
+models/ProbeC007ItemParameter.ts
+models/ProbeC045ItemParameter.ts
+models/ProbeC084ItemParameter.ts
+models/index.ts
+runtime.ts

@@ -1,0 +1,12 @@
+{
+  "n_cases": 117,
+  "counts_by_location": {
+    "query": 39,
+    "path": 54,
+    "header": 24
+  },
+  "n_metamporphic_pairs": 27,
+  "n_problems": 0,
+  "problems": [],
+  "scope": "offline structural and restricted semantic checks only; NOT official full OpenAPI 3.1 schema validation"
+}

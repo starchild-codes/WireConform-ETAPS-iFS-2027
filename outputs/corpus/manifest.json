@@ -1,0 +1,2068 @@
+[
+  {
+    "id": "c001",
+    "location": "query",
+    "style": "form",
+    "kind": "scalar",
+    "explode": true,
+    "value": "azure",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": "words-query-form-scalar-default",
+    "expected_url": "/cases/c001?item=azure",
+    "expected_headers": {},
+    "spec_file": "c001.json"
+  },
+  {
+    "id": "c002",
+    "location": "query",
+    "style": "form",
+    "kind": "scalar",
+    "explode": true,
+    "value": "azure",
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "words",
+    "pair": "words-query-form-scalar-default",
+    "expected_url": "/cases/c002?item=azure",
+    "expected_headers": {},
+    "spec_file": "c002.json"
+  },
+  {
+    "id": "c003",
+    "location": "query",
+    "style": "form",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c003?item=red,blue",
+    "expected_headers": {},
+    "spec_file": "c003.json"
+  },
+  {
+    "id": "c004",
+    "location": "query",
+    "style": "form",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": "words-query-form-array-default",
+    "expected_url": "/cases/c004?item=red&item=blue",
+    "expected_headers": {},
+    "spec_file": "c004.json"
+  },
+  {
+    "id": "c005",
+    "location": "query",
+    "style": "form",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "words",
+    "pair": "words-query-form-array-default",
+    "expected_url": "/cases/c005?item=red&item=blue",
+    "expected_headers": {},
+    "spec_file": "c005.json"
+  },
+  {
+    "id": "c006",
+    "location": "query",
+    "style": "form",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c006?item=a,red,b,blue",
+    "expected_headers": {},
+    "spec_file": "c006.json"
+  },
+  {
+    "id": "c007",
+    "location": "query",
+    "style": "form",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": "words-query-form-object-default",
+    "expected_url": "/cases/c007?a=red&b=blue",
+    "expected_headers": {},
+    "spec_file": "c007.json"
+  },
+  {
+    "id": "c008",
+    "location": "query",
+    "style": "form",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "words",
+    "pair": "words-query-form-object-default",
+    "expected_url": "/cases/c008?a=red&b=blue",
+    "expected_headers": {},
+    "spec_file": "c008.json"
+  },
+  {
+    "id": "c009",
+    "location": "path",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": "azure",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": "words-path-simple-scalar-default",
+    "expected_url": "/cases/c009/p/azure",
+    "expected_headers": {},
+    "spec_file": "c009.json"
+  },
+  {
+    "id": "c010",
+    "location": "path",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": "azure",
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "words",
+    "pair": "words-path-simple-scalar-default",
+    "expected_url": "/cases/c010/p/azure",
+    "expected_headers": {},
+    "spec_file": "c010.json"
+  },
+  {
+    "id": "c011",
+    "location": "path",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": "words-path-simple-array-default",
+    "expected_url": "/cases/c011/p/red,blue",
+    "expected_headers": {},
+    "spec_file": "c011.json"
+  },
+  {
+    "id": "c012",
+    "location": "path",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "words",
+    "pair": "words-path-simple-array-default",
+    "expected_url": "/cases/c012/p/red,blue",
+    "expected_headers": {},
+    "spec_file": "c012.json"
+  },
+  {
+    "id": "c013",
+    "location": "path",
+    "style": "simple",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c013/p/red,blue",
+    "expected_headers": {},
+    "spec_file": "c013.json"
+  },
+  {
+    "id": "c014",
+    "location": "path",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": "words-path-simple-object-default",
+    "expected_url": "/cases/c014/p/a,red,b,blue",
+    "expected_headers": {},
+    "spec_file": "c014.json"
+  },
+  {
+    "id": "c015",
+    "location": "path",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "words",
+    "pair": "words-path-simple-object-default",
+    "expected_url": "/cases/c015/p/a,red,b,blue",
+    "expected_headers": {},
+    "spec_file": "c015.json"
+  },
+  {
+    "id": "c016",
+    "location": "path",
+    "style": "simple",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c016/p/a=red,b=blue",
+    "expected_headers": {},
+    "spec_file": "c016.json"
+  },
+  {
+    "id": "c017",
+    "location": "path",
+    "style": "label",
+    "kind": "scalar",
+    "explode": false,
+    "value": "azure",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c017/p/.azure",
+    "expected_headers": {},
+    "spec_file": "c017.json"
+  },
+  {
+    "id": "c018",
+    "location": "path",
+    "style": "label",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c018/p/.red,blue",
+    "expected_headers": {},
+    "spec_file": "c018.json"
+  },
+  {
+    "id": "c019",
+    "location": "path",
+    "style": "label",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c019/p/.red.blue",
+    "expected_headers": {},
+    "spec_file": "c019.json"
+  },
+  {
+    "id": "c020",
+    "location": "path",
+    "style": "label",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c020/p/.a,red,b,blue",
+    "expected_headers": {},
+    "spec_file": "c020.json"
+  },
+  {
+    "id": "c021",
+    "location": "path",
+    "style": "label",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c021/p/.a=red.b=blue",
+    "expected_headers": {},
+    "spec_file": "c021.json"
+  },
+  {
+    "id": "c022",
+    "location": "path",
+    "style": "matrix",
+    "kind": "scalar",
+    "explode": false,
+    "value": "azure",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c022/p/;item=azure",
+    "expected_headers": {},
+    "spec_file": "c022.json"
+  },
+  {
+    "id": "c023",
+    "location": "path",
+    "style": "matrix",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c023/p/;item=red,blue",
+    "expected_headers": {},
+    "spec_file": "c023.json"
+  },
+  {
+    "id": "c024",
+    "location": "path",
+    "style": "matrix",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c024/p/;item=red;item=blue",
+    "expected_headers": {},
+    "spec_file": "c024.json"
+  },
+  {
+    "id": "c025",
+    "location": "path",
+    "style": "matrix",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c025/p/;item=a,red,b,blue",
+    "expected_headers": {},
+    "spec_file": "c025.json"
+  },
+  {
+    "id": "c026",
+    "location": "path",
+    "style": "matrix",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c026/p/;a=red;b=blue",
+    "expected_headers": {},
+    "spec_file": "c026.json"
+  },
+  {
+    "id": "c027",
+    "location": "header",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": "azure",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": "words-header-simple-scalar-default",
+    "expected_url": "/cases/c027",
+    "expected_headers": {
+      "X-Test-Param": "azure"
+    },
+    "spec_file": "c027.json"
+  },
+  {
+    "id": "c028",
+    "location": "header",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": "azure",
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "words",
+    "pair": "words-header-simple-scalar-default",
+    "expected_url": "/cases/c028",
+    "expected_headers": {
+      "X-Test-Param": "azure"
+    },
+    "spec_file": "c028.json"
+  },
+  {
+    "id": "c029",
+    "location": "header",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": "words-header-simple-array-default",
+    "expected_url": "/cases/c029",
+    "expected_headers": {
+      "X-Test-Param": "red,blue"
+    },
+    "spec_file": "c029.json"
+  },
+  {
+    "id": "c030",
+    "location": "header",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "words",
+    "pair": "words-header-simple-array-default",
+    "expected_url": "/cases/c030",
+    "expected_headers": {
+      "X-Test-Param": "red,blue"
+    },
+    "spec_file": "c030.json"
+  },
+  {
+    "id": "c031",
+    "location": "header",
+    "style": "simple",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c031",
+    "expected_headers": {
+      "X-Test-Param": "red,blue"
+    },
+    "spec_file": "c031.json"
+  },
+  {
+    "id": "c032",
+    "location": "header",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": "words-header-simple-object-default",
+    "expected_url": "/cases/c032",
+    "expected_headers": {
+      "X-Test-Param": "a,red,b,blue"
+    },
+    "spec_file": "c032.json"
+  },
+  {
+    "id": "c033",
+    "location": "header",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "words",
+    "pair": "words-header-simple-object-default",
+    "expected_url": "/cases/c033",
+    "expected_headers": {
+      "X-Test-Param": "a,red,b,blue"
+    },
+    "spec_file": "c033.json"
+  },
+  {
+    "id": "c034",
+    "location": "header",
+    "style": "simple",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c034",
+    "expected_headers": {
+      "X-Test-Param": "a=red,b=blue"
+    },
+    "spec_file": "c034.json"
+  },
+  {
+    "id": "c035",
+    "location": "query",
+    "style": "spaceDelimited",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c035?item=red%20blue",
+    "expected_headers": {},
+    "spec_file": "c035.json"
+  },
+  {
+    "id": "c036",
+    "location": "query",
+    "style": "spaceDelimited",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c036?item=a%20red%20b%20blue",
+    "expected_headers": {},
+    "spec_file": "c036.json"
+  },
+  {
+    "id": "c037",
+    "location": "query",
+    "style": "pipeDelimited",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "red",
+      "blue"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c037?item=red%7Cblue",
+    "expected_headers": {},
+    "spec_file": "c037.json"
+  },
+  {
+    "id": "c038",
+    "location": "query",
+    "style": "pipeDelimited",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c038?item=a%7Cred%7Cb%7Cblue",
+    "expected_headers": {},
+    "spec_file": "c038.json"
+  },
+  {
+    "id": "c039",
+    "location": "query",
+    "style": "deepObject",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "red",
+      "b": "blue"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "words",
+    "pair": null,
+    "expected_url": "/cases/c039?item%5Ba%5D=red&item%5Bb%5D=blue",
+    "expected_headers": {},
+    "spec_file": "c039.json"
+  },
+  {
+    "id": "c040",
+    "location": "query",
+    "style": "form",
+    "kind": "scalar",
+    "explode": true,
+    "value": 7,
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": "numeric-query-form-scalar-default",
+    "expected_url": "/cases/c040?item=7",
+    "expected_headers": {},
+    "spec_file": "c040.json"
+  },
+  {
+    "id": "c041",
+    "location": "query",
+    "style": "form",
+    "kind": "scalar",
+    "explode": true,
+    "value": 7,
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "numeric",
+    "pair": "numeric-query-form-scalar-default",
+    "expected_url": "/cases/c041?item=7",
+    "expected_headers": {},
+    "spec_file": "c041.json"
+  },
+  {
+    "id": "c042",
+    "location": "query",
+    "style": "form",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c042?item=1,2,3",
+    "expected_headers": {},
+    "spec_file": "c042.json"
+  },
+  {
+    "id": "c043",
+    "location": "query",
+    "style": "form",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": "numeric-query-form-array-default",
+    "expected_url": "/cases/c043?item=1&item=2&item=3",
+    "expected_headers": {},
+    "spec_file": "c043.json"
+  },
+  {
+    "id": "c044",
+    "location": "query",
+    "style": "form",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "numeric",
+    "pair": "numeric-query-form-array-default",
+    "expected_url": "/cases/c044?item=1&item=2&item=3",
+    "expected_headers": {},
+    "spec_file": "c044.json"
+  },
+  {
+    "id": "c045",
+    "location": "query",
+    "style": "form",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c045?item=a,1,b,2",
+    "expected_headers": {},
+    "spec_file": "c045.json"
+  },
+  {
+    "id": "c046",
+    "location": "query",
+    "style": "form",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": "numeric-query-form-object-default",
+    "expected_url": "/cases/c046?a=1&b=2",
+    "expected_headers": {},
+    "spec_file": "c046.json"
+  },
+  {
+    "id": "c047",
+    "location": "query",
+    "style": "form",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "numeric",
+    "pair": "numeric-query-form-object-default",
+    "expected_url": "/cases/c047?a=1&b=2",
+    "expected_headers": {},
+    "spec_file": "c047.json"
+  },
+  {
+    "id": "c048",
+    "location": "path",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": 7,
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": "numeric-path-simple-scalar-default",
+    "expected_url": "/cases/c048/p/7",
+    "expected_headers": {},
+    "spec_file": "c048.json"
+  },
+  {
+    "id": "c049",
+    "location": "path",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": 7,
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "numeric",
+    "pair": "numeric-path-simple-scalar-default",
+    "expected_url": "/cases/c049/p/7",
+    "expected_headers": {},
+    "spec_file": "c049.json"
+  },
+  {
+    "id": "c050",
+    "location": "path",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": "numeric-path-simple-array-default",
+    "expected_url": "/cases/c050/p/1,2,3",
+    "expected_headers": {},
+    "spec_file": "c050.json"
+  },
+  {
+    "id": "c051",
+    "location": "path",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "numeric",
+    "pair": "numeric-path-simple-array-default",
+    "expected_url": "/cases/c051/p/1,2,3",
+    "expected_headers": {},
+    "spec_file": "c051.json"
+  },
+  {
+    "id": "c052",
+    "location": "path",
+    "style": "simple",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c052/p/1,2,3",
+    "expected_headers": {},
+    "spec_file": "c052.json"
+  },
+  {
+    "id": "c053",
+    "location": "path",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": "numeric-path-simple-object-default",
+    "expected_url": "/cases/c053/p/a,1,b,2",
+    "expected_headers": {},
+    "spec_file": "c053.json"
+  },
+  {
+    "id": "c054",
+    "location": "path",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "numeric",
+    "pair": "numeric-path-simple-object-default",
+    "expected_url": "/cases/c054/p/a,1,b,2",
+    "expected_headers": {},
+    "spec_file": "c054.json"
+  },
+  {
+    "id": "c055",
+    "location": "path",
+    "style": "simple",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c055/p/a=1,b=2",
+    "expected_headers": {},
+    "spec_file": "c055.json"
+  },
+  {
+    "id": "c056",
+    "location": "path",
+    "style": "label",
+    "kind": "scalar",
+    "explode": false,
+    "value": 7,
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c056/p/.7",
+    "expected_headers": {},
+    "spec_file": "c056.json"
+  },
+  {
+    "id": "c057",
+    "location": "path",
+    "style": "label",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c057/p/.1,2,3",
+    "expected_headers": {},
+    "spec_file": "c057.json"
+  },
+  {
+    "id": "c058",
+    "location": "path",
+    "style": "label",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c058/p/.1.2.3",
+    "expected_headers": {},
+    "spec_file": "c058.json"
+  },
+  {
+    "id": "c059",
+    "location": "path",
+    "style": "label",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c059/p/.a,1,b,2",
+    "expected_headers": {},
+    "spec_file": "c059.json"
+  },
+  {
+    "id": "c060",
+    "location": "path",
+    "style": "label",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c060/p/.a=1.b=2",
+    "expected_headers": {},
+    "spec_file": "c060.json"
+  },
+  {
+    "id": "c061",
+    "location": "path",
+    "style": "matrix",
+    "kind": "scalar",
+    "explode": false,
+    "value": 7,
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c061/p/;item=7",
+    "expected_headers": {},
+    "spec_file": "c061.json"
+  },
+  {
+    "id": "c062",
+    "location": "path",
+    "style": "matrix",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c062/p/;item=1,2,3",
+    "expected_headers": {},
+    "spec_file": "c062.json"
+  },
+  {
+    "id": "c063",
+    "location": "path",
+    "style": "matrix",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c063/p/;item=1;item=2;item=3",
+    "expected_headers": {},
+    "spec_file": "c063.json"
+  },
+  {
+    "id": "c064",
+    "location": "path",
+    "style": "matrix",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c064/p/;item=a,1,b,2",
+    "expected_headers": {},
+    "spec_file": "c064.json"
+  },
+  {
+    "id": "c065",
+    "location": "path",
+    "style": "matrix",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c065/p/;a=1;b=2",
+    "expected_headers": {},
+    "spec_file": "c065.json"
+  },
+  {
+    "id": "c066",
+    "location": "header",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": 7,
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": "numeric-header-simple-scalar-default",
+    "expected_url": "/cases/c066",
+    "expected_headers": {
+      "X-Test-Param": "7"
+    },
+    "spec_file": "c066.json"
+  },
+  {
+    "id": "c067",
+    "location": "header",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": 7,
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "numeric",
+    "pair": "numeric-header-simple-scalar-default",
+    "expected_url": "/cases/c067",
+    "expected_headers": {
+      "X-Test-Param": "7"
+    },
+    "spec_file": "c067.json"
+  },
+  {
+    "id": "c068",
+    "location": "header",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": "numeric-header-simple-array-default",
+    "expected_url": "/cases/c068",
+    "expected_headers": {
+      "X-Test-Param": "1,2,3"
+    },
+    "spec_file": "c068.json"
+  },
+  {
+    "id": "c069",
+    "location": "header",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "numeric",
+    "pair": "numeric-header-simple-array-default",
+    "expected_url": "/cases/c069",
+    "expected_headers": {
+      "X-Test-Param": "1,2,3"
+    },
+    "spec_file": "c069.json"
+  },
+  {
+    "id": "c070",
+    "location": "header",
+    "style": "simple",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c070",
+    "expected_headers": {
+      "X-Test-Param": "1,2,3"
+    },
+    "spec_file": "c070.json"
+  },
+  {
+    "id": "c071",
+    "location": "header",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": "numeric-header-simple-object-default",
+    "expected_url": "/cases/c071",
+    "expected_headers": {
+      "X-Test-Param": "a,1,b,2"
+    },
+    "spec_file": "c071.json"
+  },
+  {
+    "id": "c072",
+    "location": "header",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "numeric",
+    "pair": "numeric-header-simple-object-default",
+    "expected_url": "/cases/c072",
+    "expected_headers": {
+      "X-Test-Param": "a,1,b,2"
+    },
+    "spec_file": "c072.json"
+  },
+  {
+    "id": "c073",
+    "location": "header",
+    "style": "simple",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c073",
+    "expected_headers": {
+      "X-Test-Param": "a=1,b=2"
+    },
+    "spec_file": "c073.json"
+  },
+  {
+    "id": "c074",
+    "location": "query",
+    "style": "spaceDelimited",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c074?item=1%202%203",
+    "expected_headers": {},
+    "spec_file": "c074.json"
+  },
+  {
+    "id": "c075",
+    "location": "query",
+    "style": "spaceDelimited",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c075?item=a%201%20b%202",
+    "expected_headers": {},
+    "spec_file": "c075.json"
+  },
+  {
+    "id": "c076",
+    "location": "query",
+    "style": "pipeDelimited",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      1,
+      2,
+      3
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c076?item=1%7C2%7C3",
+    "expected_headers": {},
+    "spec_file": "c076.json"
+  },
+  {
+    "id": "c077",
+    "location": "query",
+    "style": "pipeDelimited",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c077?item=a%7C1%7Cb%7C2",
+    "expected_headers": {},
+    "spec_file": "c077.json"
+  },
+  {
+    "id": "c078",
+    "location": "query",
+    "style": "deepObject",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": 1,
+      "b": 2
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "numeric",
+    "pair": null,
+    "expected_url": "/cases/c078?item%5Ba%5D=1&item%5Bb%5D=2",
+    "expected_headers": {},
+    "spec_file": "c078.json"
+  },
+  {
+    "id": "c079",
+    "location": "query",
+    "style": "form",
+    "kind": "scalar",
+    "explode": true,
+    "value": "z",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": "singleton-query-form-scalar-default",
+    "expected_url": "/cases/c079?item=z",
+    "expected_headers": {},
+    "spec_file": "c079.json"
+  },
+  {
+    "id": "c080",
+    "location": "query",
+    "style": "form",
+    "kind": "scalar",
+    "explode": true,
+    "value": "z",
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "singleton",
+    "pair": "singleton-query-form-scalar-default",
+    "expected_url": "/cases/c080?item=z",
+    "expected_headers": {},
+    "spec_file": "c080.json"
+  },
+  {
+    "id": "c081",
+    "location": "query",
+    "style": "form",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c081?item=z",
+    "expected_headers": {},
+    "spec_file": "c081.json"
+  },
+  {
+    "id": "c082",
+    "location": "query",
+    "style": "form",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": "singleton-query-form-array-default",
+    "expected_url": "/cases/c082?item=z",
+    "expected_headers": {},
+    "spec_file": "c082.json"
+  },
+  {
+    "id": "c083",
+    "location": "query",
+    "style": "form",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "z"
+    ],
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "singleton",
+    "pair": "singleton-query-form-array-default",
+    "expected_url": "/cases/c083?item=z",
+    "expected_headers": {},
+    "spec_file": "c083.json"
+  },
+  {
+    "id": "c084",
+    "location": "query",
+    "style": "form",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c084?item=a,z",
+    "expected_headers": {},
+    "spec_file": "c084.json"
+  },
+  {
+    "id": "c085",
+    "location": "query",
+    "style": "form",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": "singleton-query-form-object-default",
+    "expected_url": "/cases/c085?a=z",
+    "expected_headers": {},
+    "spec_file": "c085.json"
+  },
+  {
+    "id": "c086",
+    "location": "query",
+    "style": "form",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "singleton",
+    "pair": "singleton-query-form-object-default",
+    "expected_url": "/cases/c086?a=z",
+    "expected_headers": {},
+    "spec_file": "c086.json"
+  },
+  {
+    "id": "c087",
+    "location": "path",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": "z",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": "singleton-path-simple-scalar-default",
+    "expected_url": "/cases/c087/p/z",
+    "expected_headers": {},
+    "spec_file": "c087.json"
+  },
+  {
+    "id": "c088",
+    "location": "path",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": "z",
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "singleton",
+    "pair": "singleton-path-simple-scalar-default",
+    "expected_url": "/cases/c088/p/z",
+    "expected_headers": {},
+    "spec_file": "c088.json"
+  },
+  {
+    "id": "c089",
+    "location": "path",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": "singleton-path-simple-array-default",
+    "expected_url": "/cases/c089/p/z",
+    "expected_headers": {},
+    "spec_file": "c089.json"
+  },
+  {
+    "id": "c090",
+    "location": "path",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "z"
+    ],
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "singleton",
+    "pair": "singleton-path-simple-array-default",
+    "expected_url": "/cases/c090/p/z",
+    "expected_headers": {},
+    "spec_file": "c090.json"
+  },
+  {
+    "id": "c091",
+    "location": "path",
+    "style": "simple",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c091/p/z",
+    "expected_headers": {},
+    "spec_file": "c091.json"
+  },
+  {
+    "id": "c092",
+    "location": "path",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": "singleton-path-simple-object-default",
+    "expected_url": "/cases/c092/p/a,z",
+    "expected_headers": {},
+    "spec_file": "c092.json"
+  },
+  {
+    "id": "c093",
+    "location": "path",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "singleton",
+    "pair": "singleton-path-simple-object-default",
+    "expected_url": "/cases/c093/p/a,z",
+    "expected_headers": {},
+    "spec_file": "c093.json"
+  },
+  {
+    "id": "c094",
+    "location": "path",
+    "style": "simple",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c094/p/a=z",
+    "expected_headers": {},
+    "spec_file": "c094.json"
+  },
+  {
+    "id": "c095",
+    "location": "path",
+    "style": "label",
+    "kind": "scalar",
+    "explode": false,
+    "value": "z",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c095/p/.z",
+    "expected_headers": {},
+    "spec_file": "c095.json"
+  },
+  {
+    "id": "c096",
+    "location": "path",
+    "style": "label",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c096/p/.z",
+    "expected_headers": {},
+    "spec_file": "c096.json"
+  },
+  {
+    "id": "c097",
+    "location": "path",
+    "style": "label",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c097/p/.z",
+    "expected_headers": {},
+    "spec_file": "c097.json"
+  },
+  {
+    "id": "c098",
+    "location": "path",
+    "style": "label",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c098/p/.a,z",
+    "expected_headers": {},
+    "spec_file": "c098.json"
+  },
+  {
+    "id": "c099",
+    "location": "path",
+    "style": "label",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c099/p/.a=z",
+    "expected_headers": {},
+    "spec_file": "c099.json"
+  },
+  {
+    "id": "c100",
+    "location": "path",
+    "style": "matrix",
+    "kind": "scalar",
+    "explode": false,
+    "value": "z",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c100/p/;item=z",
+    "expected_headers": {},
+    "spec_file": "c100.json"
+  },
+  {
+    "id": "c101",
+    "location": "path",
+    "style": "matrix",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c101/p/;item=z",
+    "expected_headers": {},
+    "spec_file": "c101.json"
+  },
+  {
+    "id": "c102",
+    "location": "path",
+    "style": "matrix",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c102/p/;item=z",
+    "expected_headers": {},
+    "spec_file": "c102.json"
+  },
+  {
+    "id": "c103",
+    "location": "path",
+    "style": "matrix",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c103/p/;item=a,z",
+    "expected_headers": {},
+    "spec_file": "c103.json"
+  },
+  {
+    "id": "c104",
+    "location": "path",
+    "style": "matrix",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c104/p/;a=z",
+    "expected_headers": {},
+    "spec_file": "c104.json"
+  },
+  {
+    "id": "c105",
+    "location": "header",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": "z",
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": "singleton-header-simple-scalar-default",
+    "expected_url": "/cases/c105",
+    "expected_headers": {
+      "X-Test-Param": "z"
+    },
+    "spec_file": "c105.json"
+  },
+  {
+    "id": "c106",
+    "location": "header",
+    "style": "simple",
+    "kind": "scalar",
+    "explode": false,
+    "value": "z",
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "singleton",
+    "pair": "singleton-header-simple-scalar-default",
+    "expected_url": "/cases/c106",
+    "expected_headers": {
+      "X-Test-Param": "z"
+    },
+    "spec_file": "c106.json"
+  },
+  {
+    "id": "c107",
+    "location": "header",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": "singleton-header-simple-array-default",
+    "expected_url": "/cases/c107",
+    "expected_headers": {
+      "X-Test-Param": "z"
+    },
+    "spec_file": "c107.json"
+  },
+  {
+    "id": "c108",
+    "location": "header",
+    "style": "simple",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "z"
+    ],
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "singleton",
+    "pair": "singleton-header-simple-array-default",
+    "expected_url": "/cases/c108",
+    "expected_headers": {
+      "X-Test-Param": "z"
+    },
+    "spec_file": "c108.json"
+  },
+  {
+    "id": "c109",
+    "location": "header",
+    "style": "simple",
+    "kind": "array",
+    "explode": true,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c109",
+    "expected_headers": {
+      "X-Test-Param": "z"
+    },
+    "spec_file": "c109.json"
+  },
+  {
+    "id": "c110",
+    "location": "header",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": "singleton-header-simple-object-default",
+    "expected_url": "/cases/c110",
+    "expected_headers": {
+      "X-Test-Param": "a,z"
+    },
+    "spec_file": "c110.json"
+  },
+  {
+    "id": "c111",
+    "location": "header",
+    "style": "simple",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": true,
+    "omit_explode": true,
+    "profile": "singleton",
+    "pair": "singleton-header-simple-object-default",
+    "expected_url": "/cases/c111",
+    "expected_headers": {
+      "X-Test-Param": "a,z"
+    },
+    "spec_file": "c111.json"
+  },
+  {
+    "id": "c112",
+    "location": "header",
+    "style": "simple",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c112",
+    "expected_headers": {
+      "X-Test-Param": "a=z"
+    },
+    "spec_file": "c112.json"
+  },
+  {
+    "id": "c113",
+    "location": "query",
+    "style": "spaceDelimited",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c113?item=z",
+    "expected_headers": {},
+    "spec_file": "c113.json"
+  },
+  {
+    "id": "c114",
+    "location": "query",
+    "style": "spaceDelimited",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c114?item=a%20z",
+    "expected_headers": {},
+    "spec_file": "c114.json"
+  },
+  {
+    "id": "c115",
+    "location": "query",
+    "style": "pipeDelimited",
+    "kind": "array",
+    "explode": false,
+    "value": [
+      "z"
+    ],
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c115?item=z",
+    "expected_headers": {},
+    "spec_file": "c115.json"
+  },
+  {
+    "id": "c116",
+    "location": "query",
+    "style": "pipeDelimited",
+    "kind": "object",
+    "explode": false,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c116?item=a%7Cz",
+    "expected_headers": {},
+    "spec_file": "c116.json"
+  },
+  {
+    "id": "c117",
+    "location": "query",
+    "style": "deepObject",
+    "kind": "object",
+    "explode": true,
+    "value": {
+      "a": "z"
+    },
+    "omit_style": false,
+    "omit_explode": false,
+    "profile": "singleton",
+    "pair": null,
+    "expected_url": "/cases/c117?item%5Ba%5D=z",
+    "expected_headers": {},
+    "spec_file": "c117.json"
+  }
+]

@@ -1,0 +1,1 @@
+export default {wc: {input: {target: "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\outputs\\bundle\\all_117.json"}, output: {target: "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex\\experiments\\bundle\\orval\\generated\\client.ts", client: "fetch", mode:"single", mock: false, baseUrl: "http://127.0.0.1:8765"}}};

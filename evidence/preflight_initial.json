@@ -1,0 +1,54 @@
+{
+  "status": "ENVIRONMENT_SNAPSHOT_NOT_EXPERIMENTAL_RESULT",
+  "timestamp_utc": "2026-10-13T12:59:24.680155+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "cwd": "C:\\Users\\anshi\\Downloads\\reddit_major_revision_complete\\WireConform_Codex",
+  "commands": {
+    "node": {
+      "exit_code": 0,
+      "stdout": "v24.17.0",
+      "stderr": ""
+    },
+    "npm": {
+      "error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    },
+    "java": {
+      "error": "TimeoutExpired: Command '['java', '-version']' timed out after 7 seconds"
+    },
+    "pdflatex": {
+      "error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    },
+    "latexmk": {
+      "error": "FileNotFoundError: [WinError 2] The system cannot find the file specified"
+    },
+    "git": {
+      "exit_code": 0,
+      "stdout": "git version 2.55.0.windows.3",
+      "stderr": ""
+    }
+  },
+  "inputs_sha256": {
+    "outputs/corpus/manifest.json": "48ea4fd62f103d4f5f56ff44351bb1aeffa49a5e1d19f3e45ffaa32a42522ea4",
+    "outputs/bundle/all_117.json": "9a0da3e9d90df88ce0f0b21f95456fd04c8de58ee8761484270419f5503b1775",
+    "runner/adapters/bundle_probe.mts": "56800afca31d9d24ab4b730f0687db023838ce2224a4228093d5a41fc803ccda",
+    "manuscript/etaps_openapi_draft.tex": "3020d1fbe2595d58c21562d7d60c4a6dbef1f60503ba9630951cc7685d52a9a4",
+    "runner/pilot_cases.json": "baaa4eabba3a14131a472bfa7601aae43872b45aa4f8e3587e5247d9d0766cb2",
+    "package-lock.json": null
+  },
+  "dns": {
+    "registry.npmjs.org": {
+      "resolved": false,
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "repo.maven.apache.org": {
+      "resolved": false,
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "github.com": {
+      "resolved": false,
+      "error": "[Errno 11001] getaddrinfo failed"
+    }
+  }
+}

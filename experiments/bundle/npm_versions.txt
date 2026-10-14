@@ -1,0 +1,9 @@
+wireconform-research-pilot@0.2.0 C:\Users\anshi\Downloads\reddit_major_revision_complete\WireConform_Codex
+├── @hey-api/client-fetch@0.13.1
+├── @hey-api/openapi-ts@0.99.0
+├── @openapitools/openapi-generator-cli@2.41.0
+├── @redocly/cli@2.63.0
+├── orval@8.42.0
+├── tsx@4.23.15
+└── typescript@7.0.2
+
